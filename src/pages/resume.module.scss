@@ -1,0 +1,14 @@
+@import '../styles/global';
+
+.section {
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $secondary;
+}
+
+.container {
+    background: $white;
+    margin: 5rem;
+}

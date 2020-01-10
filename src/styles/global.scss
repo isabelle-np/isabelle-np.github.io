@@ -1,0 +1,16 @@
+$primary: #E40045;
+$secondary: #EE4C7D;
+$body: #282828;
+$caption: #8D8D8D;
+$light-background: #E3E2DE;
+$white: #FFFFFF;
+
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: $body;
+    width: 100%;
+    background: $light-background;
+}

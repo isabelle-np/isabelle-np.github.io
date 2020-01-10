@@ -1,3 +1,6 @@
-import React from "react"
+import React from "react";
+import Title from '../components/title';
 
-export default () => <div>Hello world!</div>
+export default () => (
+    <Title title="Isabelle Nguyen-Phuoc" subtitle="Software Engineer &amp; Designer"/>
+)

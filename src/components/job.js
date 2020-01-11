@@ -4,8 +4,8 @@ import styles from './job.module.scss';
 export default (props) => (
     <section className="container">
         <div className={styles.heading}>
-            <p className={styles.company}>{props.company}</p>
-            <p className={styles.role}>{props.role}</p>
+            <h3 className={styles.company}>{props.company}</h3>
+            <h4 className={styles.role}>{props.role}</h4>
         </div>
         <div className={styles.details}>
             <p className={styles.date}>{props.date}</p>

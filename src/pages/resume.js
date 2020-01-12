@@ -1,8 +1,10 @@
 import React from 'react';
 import Job from '../components/job';
 import styles from './resume.module.scss';
+import Layout from '../components/layout';
 
 export default () => (
+    <Layout>
     <main className={styles.container}>
 {/****** Bio ******/}
         <p>A strong communicator who translates clients’ needs into UX solutions, from idea, to mockup, to production-ready code.</p>
@@ -87,5 +89,6 @@ export default () => (
         <h2 className={styles.section}>Interests</h2>
         <p>Powerlifting, electronics &amp; circuits, languages, accessibility, diversity &amp; inclusion in technology</p>
     </main>
+    </Layout>
 )
 

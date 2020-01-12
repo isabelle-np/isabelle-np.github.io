@@ -11,14 +11,15 @@ $white: #FFFFFF;
 $body-font: 'Nunito';
 $heading-font: 'Roboto Condensed';
 
-$link: 'color 0.3s ease';
+$link: color 0.3s ease;
+$social-link: opacity 0.5s;
 
 body {
     font-family: $body-font;
     font-size: 16px;
     margin: 0;
     color: $body;
-    width: 100%;
+    width: 100vw;
     background: $light-background;
 }
 
@@ -29,4 +30,5 @@ h1, h2, h3, h4, h5, h6 {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }

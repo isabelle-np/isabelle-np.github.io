@@ -1,31 +1,32 @@
 import React from 'react';
+import styles from '../components/footer.module.scss';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+
 
 export default () => (
-    <footer>        
-        <div className="social-media">
-            <ul>
-                <li>
-                    <a href="http://linkedin.com/in/isabellenguyenphuoc/" target="_blank">
-                        <span className="screen-reader-text">LinkedIn</span>
-                        <span className="fab fa-linkedin fa-2x" aria-hidden="true"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:contact@isabellenp.com">
-                        <span className="screen-reader-text">Email</span>
-                        <span className="fas fa-envelope-square fa-2x" aria-hidden="true"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/isabelle-np" target="_blank">
-                        <span className="screen-reader-text">GitHub</span>
-                        <span className="fab fa-github-square fa-2x" aria-hidden="true"></span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+    <footer className={styles.footer}>    
+        <nav className="social-media">
+            <a href="http://linkedin.com/in/isabellenguyenphuoc/" target="_blank" aria-label="LinkedIn">
+                <FontAwesomeIcon icon={['fab','linkedin']} aria-hidden="true" className={styles.icon}/> 
+            </a>
 
-        <p>&copy; 2020</p>
-        <p>Designed &amp; Developed by Isabelle Nguyen-Phuoc</p>
+            <a href="mailto:contact@isabellenp.com" aria-label="Email">
+                <FontAwesomeIcon icon="envelope-square" aria-hidden="true" className={styles.icon}/> 
+            </a>
+  
+            <a href="https://github.com/isabelle-np" target="_blank" aria-label="Github">
+                <FontAwesomeIcon icon={['fab', 'github-square']} aria-hidden="true" className={styles.icon}/>
+            </a>
+        </nav>
+
+        <p>
+            <FontAwesomeIcon icon="palette" aria-hidden="true" title="Designed" className={styles.copyrightIcon}/> 
+            <span class="sr-only">Designed</span> 
+            and
+            <FontAwesomeIcon icon="code" aria-hidden="true" title="Developed" className={styles.copyrightIcon}/>
+            <span class="sr-only">developed</span> 
+            by Isabelle Nguyen-Phuoc</p>
+        
     </footer>
 )

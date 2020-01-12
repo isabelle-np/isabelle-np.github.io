@@ -1,0 +1,34 @@
+@import '../styles/global';
+
+.footer {
+    width: 100vw;
+    padding: 10px 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > * {
+        display: inline;
+        color: $caption;
+    }
+}
+
+.icon {
+    font-size: 2rem;
+    color: black;
+    opacity: 0.2;
+    transition: $social-link;
+}
+
+.icon:hover {
+	opacity: 0.4;
+}
+
+a {
+    padding: 1rem;
+}
+
+.copyrightIcon {
+    margin: auto 10px;
+}
+

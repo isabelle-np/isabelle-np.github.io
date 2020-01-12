@@ -6,7 +6,7 @@ import Title from '../components/title';
 
 export default () => (
     <Layout>
-    <Title title="Resume" subtitle="A strong communicator who translates clients’ needs into UX solutions from idea, to mockup, to production-ready code."/>
+    <Title title="Resume" subtitle="A strong communicator who translates clients’ needs into UX solutions from idea, to mockup, to production-ready code"/>
 
     <main className={styles.container}>
 {/****** Bio ******/}

@@ -22,10 +22,10 @@ export default () => (
 
         <p>
             <FontAwesomeIcon icon="palette" aria-hidden="true" title="Designed" className={styles.copyrightIcon}/> 
-            <span class="sr-only">Designed</span> 
+            <span className="sr-only">Designed</span> 
             and
             <FontAwesomeIcon icon="code" aria-hidden="true" title="Developed" className={styles.copyrightIcon}/>
-            <span class="sr-only">developed</span> 
+            <span className="sr-only">developed</span> 
             by Isabelle Nguyen-Phuoc</p>
         
     </footer>

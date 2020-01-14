@@ -5,9 +5,9 @@ import styles from '../components/layout.module.scss';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelopeSquare, faCode, faPalette } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeSquare, faCode, faPalette, faBriefcase, faGraduationCap, faLightbulb, faMedal } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faEnvelopeSquare, faCode, faPalette);
+library.add(fab, faEnvelopeSquare, faCode, faPalette, faBriefcase, faGraduationCap, faLightbulb, faMedal);
 
 export default ({ children }) => (
     <div className={styles.container}>

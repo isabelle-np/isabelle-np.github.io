@@ -8,18 +8,34 @@
     display: inline;
 }
 
+.container {
+    margin-bottom: 1.5rem;
+}
+
 .role {
     color: $primary;
     text-transform: uppercase;
     display: inline;
     font-size: 1.2rem;
     font-weight: 700;
+    margin-left: 0.5rem;
 }
 
 .details {
     color: $caption;
-    display: inline;
     font-weight: 300;
     font-size: 0.8rem;
+
+    > p {
+        display: inline;
+    }
+
+    > p:first-child {
+        margin-right: 0.5rem;
+    }
+
+    > p:last-child {
+        margin-left: 0.5rem;
+    }
 }
 

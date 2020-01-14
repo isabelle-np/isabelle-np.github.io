@@ -13,6 +13,7 @@ $heading-font: 'Roboto Condensed';
 
 $link: color 0.3s ease;
 $social-link: opacity 0.5s;
+$transition: 0.5s ease;
 
 body {
     font-family: $body-font;
@@ -32,3 +33,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }

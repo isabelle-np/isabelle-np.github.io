@@ -13,6 +13,7 @@
 .container {
     grid-column: 7;
     grid-row: 2;
+    align-self: center;
 }
 
 .item {
@@ -34,10 +35,25 @@
     margin-right: 0;
 }
 
-.item:hover {
+.item:hover, .active {
     color: $primary;
 }
 
+.logo {
+    height: 60px;
+    opacity: 0.2;
+    transition: $transition;
+}
+
+.logo:hover {
+    opacity: 9;
+}
+
+.homeLink {
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: end;
+}
 
 
 

@@ -1,7 +1,6 @@
 ---
-title: "Reloc8"
-id: 5
-date: "2019-01-07"
+title: "Color Art History"
+date: "2019-01-03"
 image: "https://source.unsplash.com/150x150/?gatsbyjs"
 keywords: "blog"
 ---

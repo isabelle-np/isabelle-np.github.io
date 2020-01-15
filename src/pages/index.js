@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from '../components/layout';
 import Logo from '../images/logo.svg';
+import CaseStudyList from '../components/casestudy-list';
 
 import styles from '../pages/index.module.scss';
 import { graphql } from "gatsby";
@@ -13,7 +14,7 @@ export default ({data}) => (
             <h2 className={styles.subtitle}>Software Engineer &amp; Designer</h2>
         </div>
         <div className={styles.portfolio} id="portfolio">
-            <p>hi</p>
+            <CaseStudyList/>
         </div>
     </Layout>
 )

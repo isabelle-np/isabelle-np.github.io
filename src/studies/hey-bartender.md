@@ -1,7 +1,8 @@
 ---
-title: "Reloc8"
-id: 5
-date: "2019-01-07"
+title: "Hey Bartender"
+subtitle: "Location-based happy hour finder across the United States"
+type: "Web Application"
+id: 1
 image: "https://source.unsplash.com/150x150/?gatsbyjs"
 keywords: "blog"
 ---

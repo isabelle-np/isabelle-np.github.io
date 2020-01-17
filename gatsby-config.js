@@ -7,17 +7,25 @@ module.exports = {
   },
 
   plugins: [
-    'gatsby-plugin-sass',
+    `gatsby-plugin-sass`,
 
     {
-        resolve: 'gatsby-source-filesystem',
+        resolve: `gatsby-source-filesystem`,
         options: {
-          name: 'files',
-          path: `${__dirname}/src/studies/`,
+          name: `files`,
+          path: `${__dirname}/src/studies`,
         },
     },
 
-    'gatsby-transformer-remark',
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/studies`,
+      },
+    },
   ]
   
 }

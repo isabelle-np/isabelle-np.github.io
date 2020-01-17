@@ -16,6 +16,7 @@
 }
 
 .item {
+    @include transition(color, 0.3s);
     font-family: $heading-font;
     font-size: 1rem;
     text-decoration: none;
@@ -25,7 +26,6 @@
     letter-spacing: 1px;
     margin: 2rem;
     padding: 10px;
-    transition: $link;
 
     &:last-child {
         margin-right: 0;
@@ -44,10 +44,10 @@
 .logo {
     height: 60px;
     opacity: 0.2;
-    transition: $transition;
+    @include transition(opacity);
     
     &:hover {
-        opacity: 9;
+        opacity: 0.9;
     }
 }
 
@@ -57,6 +57,9 @@
     grid-row: 2;
     grid-column: 1;
     justify-self: end;
+    &:hover {
+        opacity: 0.9;
+    }
 }
 
 

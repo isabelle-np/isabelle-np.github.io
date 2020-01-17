@@ -18,10 +18,14 @@ export default () => (
                  title
                  subtitle
                  type
-                 image
-                 
+                 featuredImage {
+                  childImageSharp {
+                    fluid(maxWidth: 400) {
+                     ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
                }
-               excerpt
              }
            }
          }
@@ -32,11 +36,12 @@ export default () => (
       render = { data => (
          <div>
             {data.allMarkdownRemark.edges.map(({ node }) => (
-               <CaseStudy id={node.id}
+               <CaseStudy key={node.id} id={node.id}
                   to={node.fields.slug}
                   title={node.frontmatter.title}
                   subtitle={node.frontmatter.subtitle}
                   type={node.frontmatter.type}
+                  fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
                    />
             ))}
          </div>

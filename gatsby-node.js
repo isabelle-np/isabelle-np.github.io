@@ -32,6 +32,11 @@ exports.createPages = ({ graphql, actions }) => {
             }
         }
         `).then(result => {
+
+            if(result.errors){
+                throw result.errors
+            }
+
             result.data.allMarkdownRemark.edges.forEach(( { node }) => {
                 createPage({
                     path: node.fields.slug,
@@ -46,24 +51,3 @@ exports.createPages = ({ graphql, actions }) => {
     })
 }
 
-/* Graphiql query
-{
-    allMarkdownRemark(sort: {fields: [frontmatter___priority], order: DESC}) {
-        totalCount
-        edges {
-            node {
-                id
-                frontmatter {
-                    title
-                    image
-                    priority
-                }
-                fields {
-                    slug
-                }
-                excerpt
-            }
-        }
-    }
-}
-*/

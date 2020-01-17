@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
-@import 'colors';
-@import 'mixins';
-@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+@import 'colors.scss';
+@import 'mixins.scss';
+@import 'reset.scss';
 
-$body-font: 'Nunito', sans-serif;
+$body-font: 'Questrial', sans-serif;
 $heading-font: 'Roboto Condensed', sans-serif;
+$accent-font: 'Permanent Marker', serif;
 
-$link: color 0.3s ease;
-$social-link: opacity 0.5s;
-$transition: 0.5s ease;
 
 body {
     font: {
@@ -19,7 +18,7 @@ body {
     margin: 0;
     color: $body;
     width: 100vw;
-    background: $light-background;
+    background: $background;
 }
 
 h1, h2, h3, h4, h5, h6 {

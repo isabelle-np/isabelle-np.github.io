@@ -1,21 +1,19 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import styles from  './casestudy.module.scss'
+import Img from "gatsby-image"
 
 export default (props) => (
 
-   <Link to={props.to}>
+   <Link to={props.to} className={styles.link}>
       <article className={styles.container} key={props.id}>
-         <div className={styles.left}>
-            <img src={props.image}/>
-         </div>
-         <div className={styles.right}>
-            <p>{props.type}</p>
+         <Img fluid={props.fluid} className={styles.image}/>
+         <div className={styles.info}>
+            <p className={styles.kind}>{props.type}</p>
             <h3 className={styles.title}>{props.title}</h3>
-            <h4>{props.subtitle}</h4>
+            <h4 className={styles.subtitle}>{props.subtitle}</h4>
          </div>
       </article>
    </Link>
 
 )
-

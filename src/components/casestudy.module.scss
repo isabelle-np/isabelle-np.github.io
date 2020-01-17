@@ -1,19 +1,56 @@
-.container {
-    background: $white;
-    border: 0.5px solid #EBEBEB;
-    @include rounded-corners(10px);
-    width: 80%;
-    margin: 5rem auto;
-    transition: transform 0.5s;
+@import '../styles/global';
 
-    &:hover{
+.container {
+    @include rounded-corners;
+    @include transition;
+    @include flex;
+    background: $light-background;
+    border: 0.5px solid $border;
+    width: 60%;
+    margin: 2rem auto;
+    opacity: 0.75;
+    &:hover {
         @include translate;
-        @include rounded-corners(8px);
-        box-shadow: 0 62px 120px -34px rgba(0, 0, 0, 0.10);
+        box-shadow: 0 62px 120px -34px rgba(27, 5, 5, 0.1);
+        opacity: 1;
     }
     
 }
 
-.title {
-    @include clear-text;
+.link {
+    @include clear-link;
 }
+
+.title {
+    color: $secondary;
+    font-family: $heading-font;
+    font-size: 3rem;
+	font-weight: 100;
+	letter-spacing: 0;
+	margin: 0 0 0.5rem 0;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-family:$body-font;
+}
+
+.image {
+    @include rounded-corners(5px);
+    width: 300px;
+    height: 80%;
+    margin: 1rem;
+}
+
+.info {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.kind {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $tertiary;
+}
+

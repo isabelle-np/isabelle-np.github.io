@@ -3,7 +3,7 @@ id: 6
 title: "Terrier Card"
 subtitle: "Location-based happy hour finder across the United States"
 type: High-Fidelity Prototype
-image: "../images/case-icons/terriercard.png"
+featuredImage: terriercard.png
 ---
 
 #If you are reading this, you know Gatsby is awesome!

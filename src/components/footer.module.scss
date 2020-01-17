@@ -1,12 +1,12 @@
 @import '../styles/global';
 
 .footer {
-    width: 100vw;
-    padding: 10px 2rem;
-    display: flex;
+    @include flex();
     justify-content: space-between;
     align-items: center;
-
+    width: 100vw;
+    padding: 10px 2rem;
+    
     > * {
         display: inline;
         color: $tertiary;
@@ -14,10 +14,10 @@
 }
 
 .icon {
+    @include transition(opacity);
     font-size: 2rem;
-    color: black;
+    color: $black;
     opacity: 0.2;
-    transition: $social-link;
 
     &:hover {
         opacity: 0.4;

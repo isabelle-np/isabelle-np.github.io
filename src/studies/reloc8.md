@@ -3,7 +3,7 @@ id: 5
 title: "Reloc8"
 subtitle: "Location-based happy hour finder across the United States"
 type: Web Application
-image: "../images/case-icons/terriercard.png"
+featuredImage: reloc8.png
 ---
 
 #If you are reading this, you know Gatsby is awesome!

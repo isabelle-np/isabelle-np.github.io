@@ -3,7 +3,7 @@ id: 2
 title: "JPMorgan Chase"
 subtitle: "Business Insights and Analytics Dashboard"
 type: "Web Application"
-image: "../images/case-icons/terriercard.png"
+featuredImage: konexio.png
 ---
 
 #If you are reading this, you know Gatsby is awesome!

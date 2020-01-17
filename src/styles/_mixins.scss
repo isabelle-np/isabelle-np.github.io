@@ -13,3 +13,22 @@
     -moz-border-radius: $pixels;
     -webkit-border-radius: $pixels;
 }
+
+@mixin flex($direction: row, $wrap: nowrap) {
+    display: flex;
+    flex-flow: $direction $wrap;
+}
+
+@mixin transition($kind: false, $speed: 0.5s) {
+    @if $kind {
+        transition: $kind $speed ease;
+    } @else {
+        transition: $speed ease;
+    }
+}
+
+@mixin respond-to($val, $query) { 
+	@media($val: $query) {
+		@content 
+	}
+}

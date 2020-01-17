@@ -3,9 +3,10 @@ id: 1
 title: "Hey Bartender"
 subtitle: "Location-based happy hour finder across the United States"
 type: "Web Application"
-image: ../images/case-icons/reloc8.png
+featuredImage: heybartender.png
 ---
 
+![Hey Bartender](./heybartender.png)
 ##Project Overview
 
 While interning at Cogo Labs, a startup incubator, I served as the design lead and React engineer alongside two engineers and two analysts. We were tasked to build and grow an internet business based on the general theme of "events" and to maximize 10 Key Performance Indicators (KPIs) regarding user interaction and revenue. Utilizing an Agile (Kanban) development approach, Hey Bartender grew from an idea to a live application with a 12,000+ active user base across all 50 states–all in 10 weeks.

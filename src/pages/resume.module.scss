@@ -18,7 +18,7 @@
 }
 
 .section {
-    border-bottom: 1px solid #8d8d8d;
+    border-bottom: 1px solid $tertiary;
     margin: auto;
 }
 
@@ -43,21 +43,18 @@
 }
 
 .icon {
+    @include transition(opacity);
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: $body;
     opacity: 0.6;
-    transition: $transition;
 
     &:hover {
         color: $primary;
         opacity: 1;
     }
 }
-
-.navLink:hover {
-    @extend .icon:hover;
-}
+s
 
 .bulletList {
     padding: 0 2.5rem;
@@ -66,7 +63,12 @@
 
 .navLink {
     @include clear-link;
+    @include transition(opacity);
     display: inline;
     opacity: 0.6;
-    transition: $transition;
+
+    &:hover {
+        @extend .icon:hover;
+    }
+    
 }

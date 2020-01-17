@@ -3,7 +3,7 @@ id: 3
 title: "Powerlifting Meet"
 subtitle: "Relational Database Design for a powerlifting federation"
 type: "Database Modelling"
-image: "../images/case-icons/terriercard.png"
+featuredImage: lit.png
 ---
 
 #If you are reading this, you know Gatsby is awesome!

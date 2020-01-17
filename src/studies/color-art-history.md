@@ -1,8 +1,9 @@
 ---
 title: "Color Art History"
 subtitle: "Location-based happy hour finder across the United States"
-date: "2019-01-03"
-image: "./images/case-icons/terriercard.png"
+id: 20
+type: JS Game
+featuredImage: fresh.png
 ---
 
 #If you are reading this, you know Gatsby is awesome!

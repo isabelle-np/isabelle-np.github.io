@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/404.js"],"names":[],"mappings":"2FAAA,4CAGe,4BACX,kBAAC,IAAD,KACI","file":"component---src-pages-404-js-9a41107138b178d0850a.js","sourcesContent":["import React from 'react';\nimport Layout from '../components/layout';\n\nexport default () => (\n    <Layout>\n        <p>oops!</p>\n    </Layout>\n)"],"sourceRoot":""}

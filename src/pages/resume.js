@@ -12,11 +12,11 @@ function Resume() {
     <Layout>
         <Title title="Resume" subtitle="A strong communicator who translates clients’ needs into UX solutions from idea, to mockup, to production-ready code"/>
         <nav className={styles.nav}>
-            <Link to="/resume/#work" className={styles.navLink}>
+            <Link to="/resume/#work" className={styles.navLink} activeClassName={styles.active} >
             <FontAwesomeIcon icon="briefcase" className={styles.icon}/></Link>
-            <Link to="/resume/#school" className={styles.navLink}><FontAwesomeIcon icon="graduation-cap" className={styles.icon}/></Link>
-            <Link to="/resume/#skills" className={styles.navLink}><FontAwesomeIcon icon="lightbulb" className={styles.icon}/></Link>
-            <Link to="/resume/#awards" className={styles.navLink}><FontAwesomeIcon icon="medal" className={styles.icon}/></Link>
+            <Link to="/resume/#school" className={styles.navLink} activeClassName={styles.active} ><FontAwesomeIcon icon="graduation-cap" className={styles.icon}/></Link>
+            <Link to="/resume/#skills" className={styles.navLink} activeClassName={styles.active} ><FontAwesomeIcon icon="lightbulb" className={styles.icon}/></Link>
+            <Link to="/resume/#awards" className={styles.navLink} activeClassName={styles.active} ><FontAwesomeIcon icon="medal" className={styles.icon}/></Link>
         </nav>
 
         <main className={styles.container}>

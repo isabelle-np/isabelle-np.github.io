@@ -6,7 +6,7 @@ type: "Web Application"
 featuredImage: heybartender.png
 ---
 
-![Hey Bartender](./heybartender.png)
+![Hey Bartender](banner.png)
 ##Project Overview
 
 While interning at Cogo Labs, a startup incubator, I served as the design lead and React engineer alongside two engineers and two analysts. We were tasked to build and grow an internet business based on the general theme of "events" and to maximize 10 Key Performance Indicators (KPIs) regarding user interaction and revenue. Utilizing an Agile (Kanban) development approach, Hey Bartender grew from an idea to a live application with a 12,000+ active user base across all 50 states–all in 10 weeks.
@@ -42,7 +42,8 @@ What solidified our decision to enter this market was our competitors. I found t
 ###The Users
 While we had defined a problem we could address within a profitable market, we were unable to clearly define our target demographic through Cogo's databases. After researching into how bars and restaurants market their happy hours and to what demographic, I developed initial personas to guide our process. I then iterated on these personas after running a series of Facebook advertising campaigns and collecting analytics on what demographics responded well to our targeted ads. The data sourced from Facebook allowed me to clearly define our target users and to develop guiding personas like Cara and Jonathan.
 
-INSERT PERSONAS
+![Hey Bartender](persona1.png) 
+![Hey Bartender](persona2.png)
 
 ###Success
 While we were given 10 KPIs, we prioritize certain metrics to reflect our definition of success for Hey Bartender. Based on the user's ideal experience with our website, we wanted to focus on the following KPIs:
@@ -59,8 +60,13 @@ By prioritizing these metrics, we were able to strategize our design, developmen
 ###Wireframes
 Having established our technology stack, I wireframed our web application, starting with our Most Viable Product (MVP). We wanted an interactive experience that wouldn't require a complicated onboarding process, so we emulated Tinder's focus of one profile at a time to help users with choice paralysis. We also wanted a very simplified version of our end product and decided on a random happy hour generator for the city of New York. In order to meet our deadlines for the launch of our MVP, features such as the date selector were not included in our live MVP.
 
+![Hey Bartender](wireframe.png)
+
 ###Mockup and Style Guide
 During the wireframe hand-off process, the product side of our team had difficulty with naming conventions and making our code as clear and concise as could be. To solve this issue, I led a meeting with all members of our team to establish a common vocabulary in naming UI components on our site, as well as event trackers to analyze our users and their behaviours. By building a common vocabulary, we were able to work more efficiently and could all partake in conversations regarding our website. I also established scalable design patterns and code practices which allowed us to quickly grow our product beyond the MVP stage.
+
+![Hey Bartender](home.png)
+
 I also created a style and branding guide to assist the engineers with the development of our site. Prior to the launch of our MVP, and subsequent update releases, I did a front-end style pass through the website to ensure consistancy across all devices.
 
 IMAGE OF STYLE GUIDE AND LINK
@@ -68,6 +74,8 @@ IMAGE OF STYLE GUIDE AND LINK
 ##Iterate
 ###Ad Strategy
 After our MVP went live, we launched a series of Facebook advertisements in order to drive traffic to our website and to gather feedback on user interaction. We were instructed to use Facebook and Instagram ads as our only sources of paid traffic, with a budget of $7500 for 10 weeks. Working with the analysts, we designed various advertisements and A/B tests in order to improve our link conversions and the CPC of our ads. After running A/B tests, we found that the best ads featured images of women, had minimal text, and ran on Facebook only, rather than both Instagram and Facebook.
+
+![Hey Bartender](cpc.png) 
 
 ###User Testing
 Prior to wireframing and designing the next feature, I conducted user testing with a sample hand-off 7 participants both in and out of our target demographic. Since our data reflected that most of our users were accessing our website on a mobile device, I tested it with both Android and iOS devices. I compiled my findings in a user testing report which included bugs, usability issues, content issues, interface issues, and interesting findings. Our most notable takeaways included confusion around our Yelp integration, the copy on the homepage, and the user flow past Hey Bartender.
@@ -77,13 +85,16 @@ USER TESTING REPORT
 ###Next Iteration
 Our next iteration was to expand to other cities across the US and to fix notable concerns that were brought to our attention during testing. This included optimizing advertisement space and enhancing the mobile experience. Simply by fixing the unecessary scrolling for mobile users, we were able to decrease our bounce rate from 70% to 55%.
 
+
 When we asked users "After you found a special you liked on our site, what would you do next?", they responded by going to Yelp to view the rating, reviews, and to look at the restaurant's website. In order to improve our time on site KPI and to improve the user experience, our next feature utilized the Yelp API to show users the restaurant rating, the number of reviews on Yelp, telephone number, and a link to the website. While we initially designed for information such as parking, dress code, and ambiance, we had to reassess based on time constrainsts and API data restrictions.
+
+![Hey Bartender](moreinfo.png)
 
 ##Final Iteration
 At the end of the 10 week internship, Hey Bartender was in over 120 cities across the US, had 497 likes and 520 follows on Facebook, and 109 Instagram followers.
 
 ###Final KPIs
-
+![Hey Bartender](kpi.png)
 ###Next Steps
 This project is being taken over by a team at Cogo Labs, thus changes to Hey Bartender's style and functionality may be changed. I did, however, design what I hoped Hey Bartender could one day become, an interactive map where users can explore areas near them.
 

@@ -1,31 +1,40 @@
 @import '../styles/global';
 
+body {
+    //background-color: #E74832
+}
+
 .heading {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: $secondary;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
 }
 
 .container {
     margin: 1.5rem auto;
-    padding: 1.5rem 2rem;
-    width: 520px;
+    padding: 0 4rem 3rem 4rem;
+    width: 55%;
     background: white;
     @include rounded-corners(15px);
 }
 
 .section {
-    border-bottom: 1px solid $tertiary;
+    border-bottom: 1px solid $blue;
+    width: 90%;
     margin: auto;
+
 }
 
 
 .bulletList {
     > li {
-        margin: 0.3rem 0;
+        line-height: 1.5rem;
+        margin-bottom: 0.75rem;
+        margin-left: 2rem;
     }
 }
 
@@ -37,6 +46,7 @@
     width: 200px;
     height: 100vh;
     margin-left: 1rem;
+    margin-top: 2rem;
     position: fixed;
     text-align: left;
     
@@ -54,12 +64,7 @@
         opacity: 1;
     }
 }
-s
 
-.bulletList {
-    padding: 0 2.5rem;
-    width: 500px;
-}
 
 .navLink {
     @include clear-link;
@@ -71,4 +76,8 @@ s
         @extend .icon:hover;
     }
     
+}
+
+.active {
+    color: $primary;
 }

@@ -1,4 +1,6 @@
 module.exports = {
+
+  
   
   siteMetadata: {
     title: 'Isabelle Nguyen-Phuoc Portfolio',
@@ -8,24 +10,41 @@ module.exports = {
 
   plugins: [
     `gatsby-plugin-sass`,
-
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            }
+          },
+          'gatsby-remark-copy-linked-files',
+        ]
+      }
+    },
     {
         resolve: `gatsby-source-filesystem`,
         options: {
-          name: `files`,
+          name: `pages`,
           path: `${__dirname}/src/studies`,
         },
     },
-
-    `gatsby-transformer-remark`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/studies`,
-      },
+        path: `${__dirname}/src/images`,
+        name: 'images',
+      }
     },
+    
+    
+        
   ]
   
 }

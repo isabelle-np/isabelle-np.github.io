@@ -3,11 +3,12 @@
 .container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
     margin-top: 2rem;
+    height: 100vh;
 }
 
 .name {
@@ -52,5 +53,59 @@
 
 .portfolio {
     width: 100vw;
+    padding-top: 2rem;
 }
 
+.arrow {
+    grid-row: 5;
+    grid-column: 5 / span 6;
+    justify-self: center;
+    align-self: center;
+    @include clear-link;
+}
+
+.animation {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
+    opacity: 1; 
+    width: 16px; 
+    height: 20px; 
+    right: 60px; 
+    bottom: 60px; 
+    z-index: 109; 
+    margin-right: 1rem;
+
+    
+    
+    animation-name: animation_6; 
+    animation-duration: 3.9s; 
+    animation-iteration-count: infinite; 
+    animation-direction: normal; 
+    animation-fill-mode: both; 
+    animation-play-state: running;
+
+    @keyframes animation_6 {
+        0%, 76.92307692307693% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; animation-timing-function: ease-out}
+        89.74358974358975% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,-30,0,1); opacity: 1; animation-timing-function: linear}
+        92.3076923076923% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,10,0,1); opacity: 1; animation-timing-function: ease-out}
+        100% {transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity: 1; }
+    }
+    
+}
+
+.caption {
+    text-transform: uppercase;
+    color: $primary;
+    font-weight: 900;
+    font-family: $heading-font;
+    font-size: 1.5rem;
+}
+
+
+.description {
+    grid-column: 2 / span 3;
+    grid-row: 2;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    line-height: 2.5rem;
+
+}

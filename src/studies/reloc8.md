@@ -1,9 +1,9 @@
 ---
-title: "Reloc8"
 id: 5
-date: "2019-01-07"
-image: "https://source.unsplash.com/150x150/?gatsbyjs"
-keywords: "blog"
+title: "Reloc8"
+subtitle: "Location-based happy hour finder across the United States"
+type: Web Application
+image: "../images/case-icons/terriercard.png"
 ---
 
 #If you are reading this, you know Gatsby is awesome!

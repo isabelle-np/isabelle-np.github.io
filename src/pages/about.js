@@ -10,9 +10,9 @@ import styles from './about.module.scss';
 
 export default () => (
     <Layout>
-        <div className={styles.heroImage}></div>
+        
         <Title title="About" subtitle="A polymathic powerlifter and former concert photographer who's lived in 6 countries and speaks 4 languages (&amp; more)"/>
-        <div>
+        <div className={styles.container}>
             <p>Hi, I'm Isabelle! I'm a curiouos go-getter who aspires to dedsign and build technology grounded in humanity. That's why I became a self-taught designer-turned-software engineer while pursuing a degree in Foreign Policy and National Security. I'm curious about the fair (and unfair) use of technology and its implication on markets and society.</p>
             <img src={Graduation} className={styles.image} alt="Me at graduation"/>
             <p>I've combined my tech skills and background in International Relations to volunteer with non-profit organizations, including Konexio, where I designed a networking platform to match refugees in Konexio's digital literacy program with professionals in France. In academia, my senior thesis analyzed the socio-economic impacts of GDPR, the General Data Protection Regulation, and European competitiveness in the global technology industry.</p>

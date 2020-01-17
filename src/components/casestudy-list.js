@@ -16,9 +16,10 @@ export default () => (
                id
                frontmatter {
                  title
+                 subtitle
+                 type
                  image
-                 keywords
-                 date(formatString: "MMMM YYYY")
+                 
                }
                excerpt
              }
@@ -33,10 +34,10 @@ export default () => (
             {data.allMarkdownRemark.edges.map(({ node }) => (
                <CaseStudy id={node.id}
                   to={node.fields.slug}
-                  keywords={node.frontmatter.keywords}
                   title={node.frontmatter.title}
-                  date={node.frontmatter.date}
-                  excerpt={node.excerpt} />
+                  subtitle={node.frontmatter.subtitle}
+                  type={node.frontmatter.type}
+                   />
             ))}
          </div>
       )}

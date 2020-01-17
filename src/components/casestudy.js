@@ -7,18 +7,12 @@ export default (props) => (
    <Link to={props.to}>
       <article className={styles.container} key={props.id}>
          <div className={styles.left}>
-            <img src={props.img}/>
+            <img src={props.image}/>
          </div>
          <div className={styles.right}>
-            <h3>
-               {props.title}
-            </h3>
-            <h4>
-               {props.subtitle}
-            </h4>
-            <div>
-               {props.type}
-            </div>
+            <p>{props.type}</p>
+            <h3 className={styles.title}>{props.title}</h3>
+            <h4>{props.subtitle}</h4>
          </div>
       </article>
    </Link>

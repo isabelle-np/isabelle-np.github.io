@@ -1,9 +1,9 @@
 ---
-title: "JPMorgan Chase"
 id: 2
-date: "2019-01-05"
-image: "https://source.unsplash.com/150x150/?gatsbyjs"
-keywords: "blog"
+title: "JPMorgan Chase"
+subtitle: "Business Insights and Analytics Dashboard"
+type: "Web Application"
+image: "../images/case-icons/terriercard.png"
 ---
 
 #If you are reading this, you know Gatsby is awesome!

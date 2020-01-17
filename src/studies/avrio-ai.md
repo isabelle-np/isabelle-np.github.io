@@ -1,9 +1,9 @@
 ---
-title: "Avrio AI"
 id: 4
-date: "2019-01-02"
+title: "Avrio AI"
+subtitle: "Location-based happy hour finder across the United States"
+type: "Marketing Website"
 image: "https://source.unsplash.com/150x150/?gatsbyjs"
-keywords: "blog"
 ---
 
 #If you are reading this, you know Gatsby is awesome!

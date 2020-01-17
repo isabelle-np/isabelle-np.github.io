@@ -1,23 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import 'colors';
+@import 'mixins';
+@import 'reset';
 
-$primary: #E40045;
-$secondary: #EE4C7D;
-$body: #282828;
-$caption: #8D8D8D;
-$light-background: #F0EFEC;
-$white: #FFFFFF;
-
-$body-font: 'Nunito';
-$heading-font: 'Roboto Condensed';
+$body-font: 'Nunito', sans-serif;
+$heading-font: 'Roboto Condensed', sans-serif;
 
 $link: color 0.3s ease;
 $social-link: opacity 0.5s;
 $transition: 0.5s ease;
 
 body {
-    font-family: $body-font;
-    font-size: 16px;
+    font: {
+        family: $body-font;
+        size: 16px;
+    }
     margin: 0;
     color: $body;
     width: 100vw;

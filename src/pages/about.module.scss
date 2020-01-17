@@ -1,11 +1,12 @@
 .image {
     height: 300px;
+    margin: 2rem auto;
+    display: block;
 }
 
-.heroImage {
-    background: url('../images/techconnect.jpg');
-    width: 100vw;
-    height: auto;
-  
-    position: fixed;
+.container {
+    width: 70%;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 3rem 6rem;
 }

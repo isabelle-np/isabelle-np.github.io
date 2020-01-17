@@ -1,0 +1,15 @@
+@mixin translate($pixels: -8px) {
+    transform: translateY($pixels);
+    -webkit-transform: translateY($pixels);
+}
+
+@mixin clear-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+@mixin rounded-corners($pixels: 15px) {
+    border-radius: $pixels;
+    -moz-border-radius: $pixels;
+    -webkit-border-radius: $pixels;
+}

@@ -9,7 +9,7 @@
 
     > * {
         display: inline;
-        color: $caption;
+        color: $tertiary;
     }
 }
 
@@ -18,11 +18,12 @@
     color: black;
     opacity: 0.2;
     transition: $social-link;
+
+    &:hover {
+        opacity: 0.4;
+    }
 }
 
-.icon:hover {
-	opacity: 0.4;
-}
 
 a {
     padding: 1rem;

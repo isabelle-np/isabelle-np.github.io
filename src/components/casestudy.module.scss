@@ -1,3 +1,19 @@
 .container {
-    color: green;
+    background: $white;
+    border: 0.5px solid #EBEBEB;
+    @include rounded-corners(10px);
+    width: 80%;
+    margin: 5rem auto;
+    transition: transform 0.5s;
+
+    &:hover{
+        @include translate;
+        @include rounded-corners(8px);
+        box-shadow: 0 62px 120px -34px rgba(0, 0, 0, 0.10);
+    }
+    
+}
+
+.title {
+    @include clear-text;
 }

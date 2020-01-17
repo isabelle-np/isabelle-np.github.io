@@ -1,9 +1,9 @@
 ---
-title: "Powerlifting Database"
 id: 3
-date: "2019-01-06"
-image: "https://source.unsplash.com/150x150/?gatsbyjs"
-keywords: "blog"
+title: "Powerlifting Meet"
+subtitle: "Relational Database Design for a powerlifting federation"
+type: "Database Modelling"
+image: "../images/case-icons/terriercard.png"
 ---
 
 #If you are reading this, you know Gatsby is awesome!

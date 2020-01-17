@@ -2,7 +2,6 @@
 
 .menu {
     height: 80px;
-    
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -24,30 +23,35 @@
     list-style: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-
     margin: 2rem;
     padding: 10px;
-    
     transition: $link;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        color: $primary;
+    }
+    
 }
 
-.item:last-child {
-    margin-right: 0;
-}
-
-.item:hover, .active {
-    color: $primary;
+.active {
+    @extend .item:hover
 }
 
 .logo {
     height: 60px;
     opacity: 0.2;
     transition: $transition;
+    
+    &:hover {
+        opacity: 9;
+    }
 }
 
-.logo:hover {
-    opacity: 9;
-}
+
 
 .homeLink {
     grid-row: 2;

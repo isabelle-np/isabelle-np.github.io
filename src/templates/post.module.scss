@@ -1,0 +1,17 @@
+@import '../styles/global';
+
+h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: $primary;
+    font-weight: 700;
+}
+
+h3 {
+    color: $tertiary;
+    font-weight: 300;
+    font-family: $body-font;
+}

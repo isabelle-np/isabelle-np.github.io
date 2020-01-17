@@ -14,7 +14,7 @@
     padding: 1.5rem 2rem;
     width: 520px;
     background: white;
-    border-radius: 15px;
+    @include rounded-corners(15px);
 }
 
 .section {
@@ -48,11 +48,15 @@
     color: $body;
     opacity: 0.6;
     transition: $transition;
+
+    &:hover {
+        color: $primary;
+        opacity: 1;
+    }
 }
 
-.icon:hover, .navLink:hover {
-    color: $primary;
-    opacity: 1;
+.navLink:hover {
+    @extend .icon:hover;
 }
 
 .bulletList {
@@ -61,9 +65,8 @@
 }
 
 .navLink {
+    @include clear-link;
     display: inline;
-    text-decoration: none;
-    color: $body;
     opacity: 0.6;
     transition: $transition;
 }

@@ -15,3 +15,12 @@ h3 {
     font-weight: 300;
     font-family: $body-font;
 }
+
+.content {
+    width: 60%;
+    margin: 3rem auto;
+    background-color: $white;
+    padding: 2.5rem;
+    @include rounded-corners;
+}
+

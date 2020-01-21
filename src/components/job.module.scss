@@ -1,6 +1,6 @@
 @import '../styles/global';
 
-.company, .skillType {
+.company {
     color: $body;
     font-size: 1.2rem;
     font-weight: 700;
@@ -13,7 +13,7 @@
     margin-bottom: 3rem;
 }
 
-.role {
+.role, .skillType{
     color: $primary;
     text-transform: uppercase;
     display: inline;

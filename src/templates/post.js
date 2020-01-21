@@ -9,10 +9,10 @@ export default ({ data }) => {
 
     return (
         <Layout>
-            <div className={styles.container}>
+            <main className={styles.container}>
                 <Title title={post.frontmatter.title} subtitle={post.frontmatter.subtitle}/>
-                <div className={styles.content} dangerouslySetInnerHTML={{ __html: post.html}}></div>
-            </div>
+                <article className={styles.content} dangerouslySetInnerHTML={{ __html: post.html}}></article>
+            </main>
         </Layout>
     )
 }

@@ -30,8 +30,9 @@ function Resume() {
                     location="Wilmington, DE">
                     <ul className={styles.bulletList}>
                         <li>Led the redesign of a business intelligence and analytics web application for C-Suite executives as the sole designer</li>
-                        <li>Increased developer productivity by implementing CSS architecture, a UI library, and style guide</li>
                         <li>Created a W3C compliant GUI for an automated trading system to monitor trading activity on simulated markets</li>
+                        <li>Increased developer productivity by implementing CSS architecture, a UI library, and a style guide</li>
+                        
                     </ul>
                 </Job>
 
@@ -43,7 +44,7 @@ function Resume() {
                     <ul className={styles.bulletList}>
                         <li>Launched a data-driven startup with 12K+ users in 10 weeks</li>
                         <li>Established clean, scalable, mobile-first design patterns and code practices for design and engineering, respectively</li>
-                        <li>Refined user experience by conducting regular user testing and A/B tests to to drive product decisions</li>
+                        <li>Refined the user experience by conducting regular user testing and A/B tests to drive product decisions</li>
                         <li>Ran A/B tests on Facebook Ad campaigns to maximize KPI performance</li>
                         <li>Compiled, evaluated, and communicated key metrics and user experience analytics to upper management through product development forecasts and weekly presentations</li>
                     </ul>
@@ -56,7 +57,7 @@ function Resume() {
                     location="Boston, MA">
                     <ul className={styles.bulletList}>
                         <li>Revitalized the company website and integrated an AI chatbot, decreasing bounce rate by 22% and increasing leads by 36%</li>
-                        <li>Developed corporate visual identity guide to ensure company-wide cohesiveness</li>
+                        <li>Developed a corporate visual identity guide to ensure company-wide cohesiveness</li>
                         <li>Designed visual assets for inbound marketing campaigns</li>
                     </ul>
                 </Job>
@@ -71,7 +72,7 @@ function Resume() {
                     location="Boston, MA">
                     <ul className={styles.bulletList}>
                         <li>Head of Design at BU’s innovation &amp; entrepreneurship lab in computer science and computer engineering</li>
-                        <li>Estabalished the first university-funded fellowship program for UX/UI designers</li>
+                        <li>Established the first university-funded fellowship program for UX/UI designers</li>
                         <li>Developed a UX workshop series for CS and engineering students</li>
                         <li>Teaching Assistant for Design &amp; Interactive Experiences (Graduate Level)</li>
                     </ul>
@@ -81,9 +82,34 @@ function Resume() {
             <div id="skills" className={styles.section}>
                 <h2 className={styles.heading}>Skills</h2>
                 <h3 className={styles.skillType}>Engineering</h3>
-                <p>JavaScript, HTML, CSS, React, Responsive Web, Java, Spring, Testing, Git, Python, SQL</p>
-        
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>React.js</li>
+                    <li>GraphQL</li>
+                    <li>Responsive Web</li>
+                    <li>Java</li>
+                    <li>Spring</li>
+                    <li>Python</li>
+                    <li>Testing</li>
+                    <li>Git</li>
+                    <li>SQL</li>
+                    <li>GraphQL</li>
+                </ul>        
                 <h3 className={styles.skillType}>Design</h3>
+                <ul>
+                    <li>Interaction Design</li>
+                    <li>UI Design</li>
+                    <li>UX Research</li>
+                    <li>Information Architecture</li>
+                    <li>User Testing</li>
+                    <li>A/B Testing</li>
+                    <li>Wireframing</li>
+                    <li>Prototyping</li>
+                    <li>Sketch</li>
+                    <li>Adobe Creative Cloud</li>
+                </ul>
                 <p>Interaction Design, UI Design, UX Research, Information Architecture, User and A/B Testing, Wireframing, Prototyping, Sketch, Adobe CC</p>
 
             </div>

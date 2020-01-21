@@ -1,15 +1,42 @@
 ---
 id: 3
-title: "Powerlifting Meet"
-subtitle: "Relational Database Design for a powerlifting federation"
+title: "Powerlifting DB"
+subtitle: "Relational Database Design for a Powerlifting Federation"
 type: "Database Modelling"
 featuredImage: lit.png
 ---
 
-#If you are reading this, you know Gatsby is awesome!
+<style>
+    .body {
+        margin: 2rem auto 2.5rem;
+    }
 
-Dolore anim duis enim sint elit et dolor pariatur ipsum anim dolor et consequat velit. Incididunt proident sunt Lorem nostrud amet. Enim culpa sunt sunt laboris. Eu excepteur enim consectetur amet do in ullamco dolore velit magna. Sunt nisi qui nostrud qui.
+    .link {
+        padding: 0;
+        text-decoration: none;
+        color: #ef8576;
+        transition: color 0.5s ease;
+    }
 
-Aliquip elit ea reprehenderit in do laborum exercitation enim nisi cupidatat. Incididunt occaecat Lorem consectetur dolor aliquip mollit qui exercitation. Commodo proident ex nisi et cillum laboris id est dolore. In ex commodo aute ut cillum ex. Ipsum voluptate Lorem sunt sint. Dolore mollit sit cupidatat amet nisi.
+    .link:hover {
+        color: #E74832;
+    }
+</style>
 
-Cillum sint consequat nulla nulla. Ipsum officia occaecat anim ipsum eu deserunt. Reprehenderit nulla pariatur dolore laborum voluptate adipisicing laboris voluptate est ex. Laborum nulla ullamco qui veniam aute occaecat sint do. Commodo est nostrud sit reprehenderit pariatur velit excepteur nisi fugiat. Sunt Lorem occaecat laboris officia. Ea cupidatat proident fugiat laborum labore aliquip voluptate mollit ad consectetur nulla ipsum do.
+##Project Overview
+
+<p class="body">One of my passions outside of technology is powerlifting. It's an individual sport where competitors have three attempts per exercise to lift as heavy as they can on the squat, bench, and deadlift. Originating from strength training traditions in ancient Greek and Persia, powerlifting competitors are judged against others of the same gender and weight class (and age division if applicable) to level the playing field.</p>
+
+<p class="body">Utilizing an open-source data set of powerlifters and their performance at federation-approved meets, I organized the data into a relational database using Microsoft SQL Server.</p>
+
+![Powerlifting Database Model](dbmodel.png)
+
+<p class="body">I organized the data into four distinct tables, Competitor, MeetRegistration, Meet, and MeetResult.</p>
+
+<p class="body">Originally, I had included weight as a field in the Competitor table, powerlifters often fluctuate in weight during the training season and cut (rapidly lose weight) before a competition. Powerlifters will also compete at different weight classes in a particular season or throughout their career, so I instead moved this information to the MeetResult table, of which one competitor can have multiple MeetResults. This allows for faster queries to calculate a powerlifter's Wilks Score, a coefficient that can be used to measure the strength of a powerlifter against other powerlifters despite the different weights of the lifters.</p>
+
+<p class="body">The MeetRegistration has a one-to-many relationship with the Competitor table to ensure that one competitor can register for multiple meets. Required fields include the competitor's division, age class, weight class, and equipment, represented by an enum of "WRAPS" or "RAW". Similarly, one Meet can have multiple MeetRegistrations and multiple MeetResults. If a competitor fails any lift, the resulting column will be 0. The MeetResult total is calculated by the heaviest, valid weight for each of the three lifts.
+</p>
+
+
+<p class="body">This project uses data from <a href="https://www.openpowerlifting.org" class="link">the OpenPowerlifting project</a>. You may download a copy of the data at <a href="https://gitlab.com/openpowerlifting/opl-data" class="link">GitLab</a>.</p>

@@ -1,7 +1,11 @@
 @import '../styles/global';
 
-body {
-    //background-color: #E74832
+.container {
+    margin: 1.5rem auto;
+    padding: 0 4rem 3rem 4rem;
+    width: 55%;
+    background: white;
+    @include rounded-corners(15px);
 }
 
 .heading {
@@ -14,14 +18,6 @@ body {
     margin-top: 3rem;
 }
 
-.container {
-    margin: 1.5rem auto;
-    padding: 0 4rem 3rem 4rem;
-    width: 55%;
-    background: white;
-    @include rounded-corners(15px);
-}
-
 .section {
     border-bottom: 1px solid $blue;
     width: 90%;
@@ -31,6 +27,7 @@ body {
 
 
 .bulletList {
+    
     > li {
         line-height: 1.5rem;
         margin-bottom: 0.75rem;
@@ -80,4 +77,9 @@ body {
 
 .active {
     color: $primary;
+}
+
+.skillType {
+    color: $primary;
+
 }

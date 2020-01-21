@@ -22,7 +22,7 @@
 }
 
 .title {
-    color: darken($primary, 5%);
+    color: $secondary;
     font-family: $heading-font;
     font-size: 3rem;
 	font-weight: 900;
@@ -35,6 +35,9 @@
 .subtitle {
     font-weight: 400;
     font-family:$body-font;
+    line-height: 1.5rem;
+    width: 65%;
+    margin: auto;
 }
 
 .image {

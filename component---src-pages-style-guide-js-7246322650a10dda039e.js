@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{xkCQ:function(e,t,n){"use strict";n.r(t);var i=n("q1tI"),l=n.n(i),a=(n("bGm9"),n("Bl7J")),o=n("pOqU");t.default=function(){return l.a.createElement(a.a,null,l.a.createElement(o.a,{title:"Style Guide",subtitle:"Style guide for my portfolio website"}))}}}]);
+//# sourceMappingURL=component---src-pages-style-guide-js-7246322650a10dda039e.js.map

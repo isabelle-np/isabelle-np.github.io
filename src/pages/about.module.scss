@@ -1,16 +1,17 @@
+@import '../styles/global';
+
 .image {
-    height: 300px;
-    margin: 2rem auto;
+    width: 100%;
     display: block;
 }
 
 .container {
-    width: 70%;
-    margin: 2rem auto;
-    background-color: white;
-    padding: 3rem 6rem;
+    @include card;
+    padding-left: 2rem;
 }
 
-.wrapper {
-    
+
+.body {
+    line-height: 1.75rem;
 }
+ 

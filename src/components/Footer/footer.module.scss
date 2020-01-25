@@ -1,14 +1,11 @@
-@import '../styles/global';
+@import '../../styles/global';
 
 .footer {
-    @include flex();
-    justify-content: space-between;
+    @include flex(column);
     align-items: center;
     width: 100vw;
-    padding: 10px 2rem;
     
     > * {
-        display: inline;
         color: $tertiary;
     }
 }
@@ -33,3 +30,11 @@ a {
     margin: auto 10px;
 }
 
+.socialMedia {
+    margin: 1.5rem 0;
+}
+
+.copyright {
+    margin: 0;
+    padding-bottom: 1rem;
+}

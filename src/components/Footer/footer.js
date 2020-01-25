@@ -1,12 +1,16 @@
 import React from 'react';
-import styles from '../components/footer.module.scss';
+import styles from './footer.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Button from '../Button/button';
 
 
 
 export default () => (
-    <footer className={styles.footer}>    
-        <nav className="social-media">
+    <footer className={styles.footer}> 
+
+        <Button to="/style-guide" text="View Style Guide"/>
+   
+        <nav className={styles.socialMedia} aria-label="social media">
             <a href="http://linkedin.com/in/isabellenguyenphuoc/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <FontAwesomeIcon icon={['fab','linkedin']} aria-hidden="true" className={styles.icon}/> 
             </a>
@@ -20,13 +24,12 @@ export default () => (
             </a>
         </nav>
 
-        <p>
+        <p className={styles.copyright}>
             <FontAwesomeIcon icon="palette" aria-hidden="true" title="Designed" className={styles.copyrightIcon}/> 
             <span className="sr-only">Designed</span> 
             and
             <FontAwesomeIcon icon="code" aria-hidden="true" title="Developed" className={styles.copyrightIcon}/>
             <span className="sr-only">developed</span> 
             by Isabelle Nguyen-Phuoc</p>
-        
     </footer>
 )

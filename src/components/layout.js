@@ -1,13 +1,13 @@
 import React from 'react';
-import Footer from '../components/footer';
-import Header from '../components/header';
+import Footer from '../components/Footer/footer';
+import Header from '../components/Header/header';
 import styles from '../components/layout.module.scss';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelopeSquare, faCode, faPalette, faBriefcase, faGraduationCap, faLightbulb, faMedal } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeSquare, faCode, faPalette, faBriefcase, faGraduationCap, faLightbulb, faMedal, faBars } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faEnvelopeSquare, faCode, faPalette, faBriefcase, faGraduationCap, faLightbulb, faMedal);
+library.add(fab, faEnvelopeSquare, faCode, faPalette, faBriefcase, faGraduationCap, faLightbulb, faMedal, faBars);
 
 export default ({ children }) => (
     <div className={styles.container}>

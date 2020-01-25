@@ -1,0 +1,48 @@
+@import '../../styles/global';
+
+.container {
+    width: 100vw;
+}
+
+.logo {
+    display: none;
+    // TODO: ADD TO MEDIA QUERY
+    // height: 100%;
+    // opacity: 0.2;
+    // align-self: center;
+    // @include transition(opacity);
+    
+    // &:hover {
+    //     opacity: 0.9;
+    // }
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    font: {
+        family: $heading-font;
+        size: 0.8rem;
+    }
+    text: {
+        decoration: none;
+        transform: uppercase;
+    }
+    color: $body;
+    list-style: none;
+    letter-spacing: 1px;
+    @include transition(color, 0.3s);
+
+    &:hover {
+        color: $primary;
+    }
+}
+
+
+.active {
+     @extend .item:hover
+}

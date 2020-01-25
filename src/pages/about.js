@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import Title from '../components/title';
+import Title from '../components/Title/title';
 import Konexio from '../images/konexio.png';
 import Graduation from '../images/graduation.jpg';
 import TechConnect from '../images/techconnect.jpg';

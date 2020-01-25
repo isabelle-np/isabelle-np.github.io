@@ -83,3 +83,26 @@
     color: $primary;
 
 }
+
+.button {
+    background: $secondary;
+    width: 100px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin: 1rem auto;
+    @include rounded-corners;
+    @include transition(background-color);
+
+     a {
+         text-decoration: none;
+         color: $white;
+         padding: 0;
+         font-size: 0.8rem;
+         letter-spacing: 1.5px;
+     }
+
+    &:hover {
+        background: $primary;
+        cursor: pointer;
+    }
+}

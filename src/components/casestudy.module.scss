@@ -6,8 +6,6 @@
     @include flex;
     background: $light-background;
     border: 0.5px solid $border;
-    width: 60%;
-    margin: 2rem auto;
     opacity: 0.9;
     &:hover {
         @include translate;
@@ -24,7 +22,7 @@
 .title {
     color: $secondary;
     font-family: $heading-font;
-    font-size: 3rem;
+    font-size: 1.5rem;
 	font-weight: 900;
     margin: 0 0 0.5rem 0;
     letter-spacing: 0px;
@@ -36,7 +34,6 @@
     font-weight: 400;
     font-family:$body-font;
     line-height: 1.5rem;
-    width: 65%;
     margin: auto;
 }
 

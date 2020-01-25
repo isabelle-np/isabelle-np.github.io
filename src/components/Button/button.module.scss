@@ -1,0 +1,18 @@
+@import '../../styles/global';
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    background: $secondary;
+    color: $white;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    align-self: center;
+    @include rounded-corners;
+    @include transition(background-color);
+
+    //TODO: Add to media query
+    // border: 2px solid $primary;
+    // color: $secondary;
+}

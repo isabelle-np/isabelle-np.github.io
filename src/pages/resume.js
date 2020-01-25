@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import Job from '../components/job';
 import styles from './resume.module.scss';
 import Layout from '../components/layout';
-import Title from '../components/title';
+import Title from '../components/Title/title';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -18,7 +18,9 @@ function Resume() {
             <Link to="/resume/#skills" className={styles.navLink} activeClassName={styles.active} ><FontAwesomeIcon icon="lightbulb" className={styles.icon}/></Link>
             <Link to="/resume/#awards" className={styles.navLink} activeClassName={styles.active} ><FontAwesomeIcon icon="medal" className={styles.icon}/></Link>
         </nav>
-
+        <div className={styles.button}>
+            <a href="/documents/Resume_Isabelle_Nguyen-Phuoc.pdf">Download</a>
+        </div>
         <main className={styles.container}>
 
             <div id="work" className={styles.section}>
@@ -42,7 +44,7 @@ function Resume() {
                     date="June 2018 - August 2018"
                     location="Boston, MA">
                     <ul className={styles.bulletList}>
-                        <li>Launched a data-driven startup with 12K+ users in 10 weeks</li>
+                        <li>Launched a data-driven startup with over 12,000 active users across the United States in 10 weeks</li>
                         <li>Established clean, scalable, mobile-first design patterns and code practices for design and engineering, respectively</li>
                         <li>Refined the user experience by conducting regular user testing and A/B tests to drive product decisions</li>
                         <li>Ran A/B tests on Facebook Ad campaigns to maximize KPI performance</li>

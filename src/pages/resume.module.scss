@@ -1,51 +1,47 @@
 @import '../styles/global';
 
 .container {
-    margin: 1.5rem auto;
-    padding: 0 4rem 3rem 4rem;
-    width: 55%;
+    margin: 1.5rem 5%;
+    padding: 1rem;
     background: white;
     @include rounded-corners(15px);
 }
 
 .heading {
-    font-size: 0.9rem;
-    font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: $secondary;
-    margin-bottom: 1.5rem;
-    margin-top: 3rem;
 }
 
 .section {
     border-bottom: 1px solid $blue;
-    width: 90%;
     margin: auto;
 
 }
 
-
 .bulletList {
+    margin-left: 0;
     
     > li {
-        line-height: 1.5rem;
+        line-height: 2rem;
         margin-bottom: 0.75rem;
-        margin-left: 2rem;
+        
     }
 }
 
 .nav {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 100vh;
-    margin-left: 1rem;
-    margin-top: 2rem;
-    position: fixed;
-    text-align: left;
+    display: none;
+    // flex-flow: column nowrap;
+    // align-items: center;
+    // justify-content: center;
+    // width: 200px;
+    // height: 100vh;
+    // margin-left: 1rem;
+    // margin-top: 2rem;
+    // position: fixed;
+    // text-align: left;
     
 }
 

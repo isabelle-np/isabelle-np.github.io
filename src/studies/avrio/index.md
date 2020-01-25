@@ -3,7 +3,7 @@ id: 4
 title: "Avrio AI"
 subtitle: "Location-based happy hour finder across the United States"
 type: "Marketing Website"
-featuredImage: avrio.png
+featuredImage: logo.png
 ---
 
 #If you are reading this, you know Gatsby is awesome!

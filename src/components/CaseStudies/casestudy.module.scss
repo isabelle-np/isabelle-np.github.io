@@ -1,33 +1,37 @@
-@import '../styles/global';
+@import '../..//styles/global';
 
 .container {
-    @include rounded-corners;
-    @include transition;
-    @include flex;
     background: $light-background;
     border: 0.5px solid $border;
     opacity: 0.9;
+    height: width;
+    @include rounded-corners;
+    @include transition;
+    @include flex(column);
+
     &:hover {
         @include translate;
         box-shadow: 0 62px 120px -34px rgba(27, 5, 5, 0.1);
         opacity: 1;
     }
-    
 }
 
 .link {
     @include clear-link;
 }
 
+.image {
+    width: 50%;
+    margin: 2rem auto 1rem;
+}
+
 .title {
-    color: $secondary;
     font-family: $heading-font;
     font-size: 1.5rem;
 	font-weight: 900;
     margin: 0 0 0.5rem 0;
     letter-spacing: 0px;
-
-    
+    color: $primary;
 }
 
 .subtitle {
@@ -37,24 +41,18 @@
     margin: auto;
 }
 
-.image {
-    @include rounded-corners(5px);
-    width: 300px;
-    height: 80%;
-    margin: 1rem;
-}
-
 .info {
-    width: 50%;
-    margin: auto;
     text-align: center;
+    width: 75%;
+    margin: 0 auto 2rem;
 }
 
 .kind {
-    font-weight: 500;
+    font-weight: 300;
+    font-size: 0.8rem;
     text-transform: uppercase;
     color: $tertiary;
-    letter-spacing: 5px;
+    letter-spacing: 0.1rem;
 
 }
 

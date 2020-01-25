@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from '../components/layout';
 //import Logo from '../images/logo.svg';
-import CaseStudyList from '../components/casestudy-list';
+import CaseStudyList from '../components/CaseStudies/casestudy-list';
 import Title from '../components/Title/title';
 import Hero from '../components/Hero/hero';
 

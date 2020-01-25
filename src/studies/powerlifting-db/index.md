@@ -3,7 +3,7 @@ id: 3
 title: "Powerlifting DB"
 subtitle: "Relational Database Design for a Powerlifting Federation"
 type: "Database Modelling"
-featuredImage: lit.png
+featuredImage: openpl.png
 ---
 
 <style>

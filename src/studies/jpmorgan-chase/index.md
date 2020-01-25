@@ -3,7 +3,7 @@ id: 2
 title: "JPMorgan Chase"
 subtitle: "Business Insights and Analytics Dashboard"
 type: "Web Application"
-featuredImage: konexio.png
+featuredImage: jpmc-logo.png
 ---
 
 ![Hey Bartender](banner.png)

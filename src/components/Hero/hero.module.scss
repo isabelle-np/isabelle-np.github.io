@@ -6,6 +6,14 @@
     text-align: center;
     display: flex;
     flex-flow: column nowrap;
+
+    @media only screen and (min-width: 500px) {
+        padding: 0;
+    }
+
+    @media only screen and (min-width: 1020px) {
+        height: 420px;
+    }
 }
 
 .logo {
@@ -21,12 +29,18 @@
 
 .name {
     font-size: 11vw;
+    line-height: 10vw;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
 
     .lastName {
         display: block;
-        line-height: 10vw;
+    
+    }
+
+    @media only screen and (min-width: 686px) {
+        font-size: 76px;
+        line-height: 73px;
     }
 }
 
@@ -38,12 +52,20 @@
     letter-spacing: 0.001vw;
     color: $primary;
     margin: 0;
+
+    @media only screen and (min-width: 686px) {
+        font-size: 28px;
+    }
 }
 
 .description {
     font-size: 1rem;
     line-height: 2rem;
     margin: 0 auto 3rem;
+
+    @media only screen and (min-width: 436px) {
+        width: 380px;
+    }
 }
 
 .hr {
@@ -64,5 +86,13 @@
         font-size: 1.5em;
         padding: 0 0.25em;
         background: $background;
+    }
+
+    @media only screen and (min-width: 800px) {
+        width: 700px;
+        margin: auto;
+            &::after {
+                font-size: 3rem;
+            }
     }
 }

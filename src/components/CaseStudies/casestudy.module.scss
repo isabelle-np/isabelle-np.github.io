@@ -15,6 +15,25 @@
         box-shadow: 0 62px 120px -34px rgba(27, 5, 5, 0.1);
         opacity: 1;
     }
+
+    @media only screen and (min-width: 371px) {
+        width: 333px;
+        margin: auto;
+    }
+
+    @media only screen and (min-width: 600px) {
+        width: 90%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        padding: 5vw 0;
+    }
+
+    @media only screen and (min-width: 700px) {
+        width: 567px;
+        padding: 35px 0;
+        margin-bottom: 3rem;
+    }
 }
 
 .link {
@@ -22,8 +41,14 @@
 }
 
 .image {
-    width: 30%;
+    width: 40%;
     margin: 2rem auto;
+    @media only screen and (min-width: 600px) {
+        margin: 1rem 1rem 1rem 2rem;
+        height: fit-content;
+        width: 30%;
+        align-self: center;
+    }
 }
 
 .title {
@@ -41,12 +66,23 @@
     line-height: 1.5rem;
     margin: auto;
     width: 90%;
+
+    @media only screen and (min-width: 600px) {
+        text-align: left;
+        margin-left: 0;
+    }
 }
 
 .info {
     text-align: center;
     width: 75%;
     margin: 0 auto 2rem;
+    @media only screen and (min-width: 600px) {
+        text-align: left;
+        width: 40%;
+        margin: 1rem 0;
+        align-self: center;
+    }
 }
 
 .kind {

@@ -20,7 +20,7 @@ function Resume() {
             <Link to="/resume/#awards" className={styles.navLink} activeClassName={styles.active} ><FontAwesomeIcon icon="medal" className={styles.icon}/></Link>
         </nav>
         <div className={styles.button}>
-        <IntButton href="/documents/Resume_Isabelle_Nguyen-Phuoc.pdf" text="Download" label="Download resume"/>
+        <IntButton href="/documents/Resume_Isabelle_Nguyen-Phuoc.pdf" text="Download Resume" label="Download Resume"/>
         </div>
         <main className={styles.container}>
             <h2 className={styles.heading}>Experience</h2>

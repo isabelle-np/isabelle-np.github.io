@@ -6,9 +6,13 @@ import Button from '../Button/button';
 
 
 export default () => (
+<>
+    <div className={styles.button}>
+        <Button to="/style-guide" text="View Site Style Guide"/>
+    </div>
+
     <footer className={styles.footer}> 
 
-        <Button to="/style-guide" text="View Style Guide"/>
    
         <nav className={styles.socialMedia} aria-label="social media">
             <a href="http://linkedin.com/in/isabellenguyenphuoc/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
@@ -32,4 +36,5 @@ export default () => (
             <span className="sr-only">developed</span> 
             by Isabelle Nguyen-Phuoc</p>
     </footer>
+    </>
 )

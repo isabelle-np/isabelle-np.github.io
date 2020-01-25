@@ -1,17 +1,14 @@
-@import '../styles/global';
+@import '../../styles/global';
 
 .company {
     color: $body;
     font-size: 1.3rem;
     font-weight: 700;
     text-transform: uppercase;
-    display: inline;
     letter-spacing: 0;
+    margin: 1rem 0 0 0;
 }
 
-.container {
-    margin-bottom: 3rem;
-}
 
 .role, .skillType{
     color: $primary;

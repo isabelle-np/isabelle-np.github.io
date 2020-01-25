@@ -1,7 +1,7 @@
 ---
 id: 6
 title: "Terrier Card"
-subtitle: "Location-based happy hour finder across the United States"
+subtitle: Mobile banking application for BU students 
 type: High-Fidelity Prototype
 featuredImage: logo.png
 ---

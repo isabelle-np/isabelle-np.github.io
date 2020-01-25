@@ -1,7 +1,7 @@
 ---
 id: 2
 title: "JPMorgan Chase"
-subtitle: "Business Insights and Analytics Dashboard"
+subtitle: "Business insights and analytics dashboard"
 type: "Web Application"
 featuredImage: jpmc-logo.png
 ---

@@ -23,7 +23,7 @@
 
 .image {
     width: 30%;
-    margin: 2rem auto 1rem;
+    margin: 2rem auto;
 }
 
 .title {
@@ -40,7 +40,7 @@
     font-family:$body-font;
     line-height: 1.5rem;
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
 .info {
@@ -55,6 +55,7 @@
     text-transform: uppercase;
     color: $tertiary;
     letter-spacing: 0.1rem;
+    margin: 0;
 
 }
 

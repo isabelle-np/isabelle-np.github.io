@@ -1,28 +1,35 @@
 @import '../styles/global';
 
 .container {
-    @include card;
+    
 }
 
 .heading {
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: $secondary;
+    color: $tertiary;
+    text-align: center;
+    margin: 0;
 }
 
 .section {
     border-bottom: 1px solid $blue;
     margin: auto;
+    @include card;
+    text-align: center;
 }
 
 .bulletList {
     margin-left: 0;
+    text-align: left;
+    width: 90%;
     
     > li {
         line-height: 2rem;
         margin-bottom: 0.75rem;
+        font-size: 1rem;
         
     }
 }
@@ -71,30 +78,23 @@
     color: $primary;
 }
 
-.skillType {
-    color: $primary;
-
-}
 
 .button {
-    background: $secondary;
-    width: 100px;
-    padding: 0.5rem 1rem;
+    margin: 1.5rem auto 2rem;
     text-align: center;
-    margin: 1rem auto;
-    @include rounded-corners;
-    @include transition(background-color);
+}
 
-     a {
-         text-decoration: none;
-         color: $white;
-         padding: 0;
-         font-size: 0.8rem;
-         letter-spacing: 1.5px;
-     }
-
-    &:hover {
-        background: $primary;
-        cursor: pointer;
+.skills {
+    padding-left: 0;
+    > li {
+        list-style: none;
+        margin: 0;
+        line-height: 2rem;
     }
+}
+
+.link {
+    color: $primary;
+    display: block;
+    padding-bottom: 1rem;
 }

@@ -3,6 +3,7 @@
 .image {
     width: 100%;
     display: block;
+    @include rounded-corners;
 }
 
 .container {
@@ -10,8 +11,4 @@
     padding-left: 2rem;
 }
 
-
-.body {
-    line-height: 1.75rem;
-}
  

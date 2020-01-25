@@ -1,7 +1,7 @@
 ---
 id: 4
 title: "Avrio AI"
-subtitle: "Location-based happy hour finder across the United States"
+subtitle: Custom website redesign built on HubSpot
 type: "Marketing Website"
 featuredImage: logo.png
 ---

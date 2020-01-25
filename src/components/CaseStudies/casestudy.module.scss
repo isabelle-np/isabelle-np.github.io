@@ -5,6 +5,7 @@
     border: 0.5px solid $border;
     opacity: 0.9;
     height: width;
+    margin-top: 1rem;
     @include rounded-corners;
     @include transition;
     @include flex(column);
@@ -39,6 +40,7 @@
     font-family:$body-font;
     line-height: 1.5rem;
     margin: auto;
+    width: 75%;
 }
 
 .info {

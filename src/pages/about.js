@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Title from '../components/Title/title';
+import Portrait from '../images/portrait.png';
 import Konexio from '../images/konexio.png';
 import Graduation from '../images/graduation.jpg';
 import TechConnect from '../images/techconnect.jpg';
@@ -12,6 +13,7 @@ export default () => (
     <Layout>
         <Title title="About" subtitle="American-born and raised internationally, my approach to UX is greatly shaped by my deep understanding of cultures and empathy"/>
         <main className={styles.container}>
+        <img src={Portrait} className={styles.image} alt="Portrait of Isabelle taken at the Whitney Museum in New York"/>
             <p className={styles.body}>Hi, I'm Isabelle! I'm a curious go-getter who aspires to design and build technology grounded in humanity. That's why I became a self-taught designer-turned-software engineer while pursuing a degree in Foreign Policy and National Security. I'm curious about the fair (and unfair) use of technology and its implication on markets and society.</p>
             <img src={Graduation} className={styles.image} alt="Isabelle recieving her diploma from Boston University"/>
             <p className={styles.body}>I've combined my tech skills and background in International Relations to volunteer with non-profit organizations, including Konexio, where I designed a networking platform to match refugees in Konexio's digital literacy program with professionals in France. In academia, my senior thesis analyzed the socio-economic impacts of GDPR, the General Data Protection Regulation, and European competitiveness in the global technology industry.</p>

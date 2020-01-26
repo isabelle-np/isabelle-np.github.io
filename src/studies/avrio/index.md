@@ -4,6 +4,8 @@ title: "Avrio AI"
 subtitle: Custom website redesign built on HubSpot
 type: "Marketing Website"
 featuredImage: logo.png
+nextPage: /reloc8
+previousPage: /avrio
 ---
 
 #If you are reading this, you know Gatsby is awesome!

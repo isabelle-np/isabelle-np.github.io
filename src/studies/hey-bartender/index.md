@@ -1,9 +1,11 @@
 ---
-id: 1
+id: 2
 title: "Hey Bartender"
 subtitle: "Location-based happy hour finder across the United States"
 type: "Web Application"
 featuredImage: logo.png
+nextPage: /powerlifting-db 
+previousPage: /jpmorgan-chase
 ---
 
 <style>

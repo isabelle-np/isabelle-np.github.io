@@ -8,6 +8,19 @@ nextPage: /reloc8
 previousPage: /avrio
 ---
 
+<style>
+
+    .h2 {
+        margin-top: 0;
+    }
+    
+    .doubleHeader {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+</style>
+
 #If you are reading this, you know Gatsby is awesome!
 
 Dolore anim duis enim sint elit et dolor pariatur ipsum anim dolor et consequat velit. Incididunt proident sunt Lorem nostrud amet. Enim culpa sunt sunt laboris. Eu excepteur enim consectetur amet do in ullamco dolore velit magna. Sunt nisi qui nostrud qui.

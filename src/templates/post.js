@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import Title from '../components/Title/title';
 import styles from './post.module.scss';
@@ -12,6 +12,10 @@ export default ({ data }) => {
             <main className={styles.container}>
                 <Title title={post.frontmatter.title} subtitle={post.frontmatter.subtitle}/>
                 <article className={styles.content} dangerouslySetInnerHTML={{ __html: post.html}}></article>
+                <div className={styles.changeCaseStudy}>
+                    <Link className={styles.link} to={post.frontmatter.previousPage}>Previous</Link>
+                    <Link className={styles.link} to={post.frontmatter.nextPage}>Next</Link>
+                </div>
             </main>
         </Layout>
     )
@@ -24,6 +28,8 @@ export const query = graphql`
             frontmatter {
                 title
                 subtitle
+                nextPage
+                previousPage
             }
         }
     }

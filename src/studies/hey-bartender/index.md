@@ -9,8 +9,14 @@ previousPage: /jpmorgan-chase
 ---
 
 <style>
-    .body {
-        margin: 1.5rem auto;
+
+    .h2 {
+        margin-top: 0;
+    }   
+
+    .doubleHeader {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
     }
 
     .link {
@@ -20,38 +26,36 @@ previousPage: /jpmorgan-chase
         transition: color 0.5s ease;
     }
 
+    
+
     .link:hover {
         color: #E74832;
     }
 </style>
 
-##Project Overview
+<h2 class="h2">Project Overview</h2>
 
 <p class="body">While interning at Cogo Labs, a startup incubator, I served as the design lead and React engineer alongside two engineers and two analysts. We were tasked to build and grow an internet business based on the general theme of "events" and to maximize 10 Key Performance Indicators (KPIs) regarding user interaction and revenue. Utilizing an Agile (Kanban) development approach, Hey Bartender grew from an idea to a live application with a 12,000+ active user base across all 50 states–all in 10 weeks.</p>
-
-###Technology Stack
-    -React + Redux
-    -Styled Components
-    -Django Rest Framework
-    -Amazon S3
 
 ###Timeframe
 10 Weeks
 
 ###Key Performance Indicators
-    -Total Visits
-    -Total Organic Visits
-    -Total Time on Site
-    -Bounce Rate
-    -Page Views per Visit
-    -Returning Visitors
-    -Peak Arrivals in a Day
-    -Lowest Cost Per Click on an Ad (CPC)
-    -Profit Margin
-    -VPA (Revenue/Visits)
+<ul>
+    <li>Total Visits</li>
+    <li>Total Organic Visits</li>
+    <li>Total Time on Site</li>
+    <li>Bounce Rate</li>
+    <li>Page Views per Visit</li>
+    <li>Returning Visitors</li>
+    <li>Peak Arrivals in a Day</li>
+    <li>Lowest Cost Per Click on an Ad (CPC)</li>
+    <li>Profit Margin</li>
+    <li>VPA (Revenue/Visits)</li>
+</ul>
 
 ##Define
-###The Prompt
+<h3 class="doubleHeader">The Prompt</h3>
 <p class="body">Within the category of "events", we hypothesized potential high-growth sectors and tested them against the data by querying Cogo's internal databases. We discovered a large market within the category of Food and Drinks during our preliminary research. Wanting to narrow our efforts into a more niche yet sizable market, we drilled down the data to find two leads: happy hours and New York City.</p>
 
 ###The Problem
@@ -75,7 +79,7 @@ Lowest Cost Per Click on an Ad (CPC)
 By prioritizing these metrics, we were able to strategize our design, development, and marketing processes.
 
 ##Ideate
-###Wireframes
+<h3 class="doubleHeader">Wireframes</h3>
 <p class="body">Having established our technology stack, I wireframed our web application, starting with our Most Viable Product (MVP). We wanted an interactive experience that wouldn't require a complicated onboarding process, so we emulated Tinder's focus of one profile at a time to help users with choice paralysis. We also wanted a very simplified version of our end product and decided on a random happy hour generator for the city of New York. To meet our deadlines for the launch of our MVP, features such as the date selector were not included in our live MVP.</p>
 
 ![Hey Bartender](wireframe.png)
@@ -90,7 +94,7 @@ By prioritizing these metrics, we were able to strategize our design, developmen
 IMAGE OF STYLE GUIDE AND LINK
 
 ##Iterate
-###Ad Strategy
+<h3 class="doubleHeader">Ad Strategy</h3>
 <p class="body">After our MVP went live, we launched a series of Facebook advertisements to drive traffic to our website and to gather feedback on user interaction. We were instructed to use Facebook and Instagram ads as our only source of paid traffic, with a budget of $7500 for 10 weeks. Working with the analysts, we designed various advertisements and A/B tests to improve our link conversions and the CPC of our ads. After running A/B tests, we found that the best ads featured images of women, had minimal text, and ran on Facebook only, rather than both Instagram and Facebook.</p>
 
 ![Hey Bartender](cpc.png) 
@@ -117,7 +121,7 @@ USER TESTING REPORT
 <p class="body">This project is being taken over by a team at Cogo Labs, thus changes to Hey Bartender's style and functionality may be changed. I did, however, design what I hoped Hey Bartender could one day become, an interactive map where users can explore areas near them.</p>
 
 ##Lessons Learned
-###Compliance
+<h3 class="doubleHeader">Compliance</h3>
 <p class="body">Especially since we were working with APIs, reaching out to users online, and scraping data, I learned a lot about compliance in regards to technology to make sure that we were within good standing. By making compliance a priority from the beginning, we were able to prevent unexpected pivots during the design and development stages.</p>
 
 ###The Development Cycle

@@ -2,25 +2,52 @@
 
 h2, h3 {
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    margin: 2rem 0 0;
 }
 
 h2 {
-    color: $primary;
+    color: $secondary;
     font-weight: 700;
+    font-size: 1.2rem;
 }
 
 h3 {
     color: $tertiary;
     font-weight: 300;
     font-family: $body-font;
+    font-size: 1rem;
 }
 
 .content {
-    width: 60%;
-    margin: 3rem auto;
+    margin-top: 0;
     background-color: $white;
-    padding: 2.5rem;
-    @include rounded-corners;
+    padding: 1rem 5rem 3rem;
+    @include card;
+}
+
+
+
+p {
+    margin: 1rem auto;
+
+}
+
+.changeCaseStudy {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.link {
+    color: $primary;
+}
+
+.image {
+    width: 100%;
+}
+
+ul {
+    padding-left: 1rem;
 }
 

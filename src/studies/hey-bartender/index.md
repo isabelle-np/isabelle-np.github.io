@@ -33,12 +33,11 @@ previousPage: /jpmorgan-chase
     }
 </style>
 
+<img src="./FinderIpad.png">
+
 <h2 class="h2">Project Overview</h2>
 
 <p class="body">While interning at Cogo Labs, a startup incubator, I served as the design lead and React engineer alongside two engineers and two analysts. We were tasked to build and grow an internet business based on the general theme of "events" and to maximize 10 Key Performance Indicators (KPIs) regarding user interaction and revenue. Utilizing an Agile (Kanban) development approach, Hey Bartender grew from an idea to a live application with a 12,000+ active user base across all 50 states–all in 10 weeks.</p>
-
-###Timeframe
-10 Weeks
 
 ###Key Performance Indicators
 <ul>
@@ -53,6 +52,8 @@ previousPage: /jpmorgan-chase
     <li>Profit Margin</li>
     <li>VPA (Revenue/Visits)</li>
 </ul>
+
+<img src="./banner.png">
 
 ##Define
 <h3 class="doubleHeader">The Prompt</h3>
@@ -87,11 +88,10 @@ By prioritizing these metrics, we were able to strategize our design, developmen
 ###Mockup and Style Guide
 <p class="body">During the wireframe hand-off process, the product side of our team had difficulty with naming conventions and making our code as clear and concise as could be. To solve this issue, I led a meeting with all members of our team to establish a common vocabulary in naming UI components on our site, as well as event trackers to analyze our users and their behaviors. By building a common vocabulary, we were able to work more efficiently and could all partake in conversations regarding our website. I also established scalable design patterns and code practices which allowed us to quickly grow our product beyond the MVP stage.</p>
 
-![Hey Bartender](home.png)
+<img src="./styleguide.png">
+<a class="link" href="./styleguide.pdf" target="_blank" rel="noopener noreferrer">View full style guide</a>
 
 <p class="body">I also created a style and branding guide to assist the engineers with the development of our site. Before the launch of our MVP, and subsequent update releases, I did a front-end style pass through the website to ensure consistency across all devices.</p>
-
-IMAGE OF STYLE GUIDE AND LINK
 
 ##Iterate
 <h3 class="doubleHeader">Ad Strategy</h3>
@@ -102,15 +102,12 @@ IMAGE OF STYLE GUIDE AND LINK
 ###User Testing
 <p class="body">Prior to wireframing and designing the next feature, I conducted user testing with a sample of 7 participants both in and out of our target demographic. Since our data reflected that most of our users were accessing our website on a mobile device, I tested it with both Android and iOS devices. I compiled my findings in a user testing report which included bugs, usability issues, content issues, interface issues, and interesting findings. Our most notable takeaways included confusion around our Yelp integration, the copy on the homepage, and the user flow past Hey Bartender.</p>
 
-USER TESTING REPORT
-
 ###Next Iteration
 <p class="body">Our next iteration was to expand to other cities across the US and to fix notable concerns that were brought to our attention during testing. This included optimizing advertisement space and enhancing the mobile experience. Simply by fixing the unnecessary scrolling for mobile users, we were able to decrease our bounce rate from 70% to 55%.</p>
 
-
 <p class="body">When we asked users "After you found a special you liked on our site, what would you do next?", they responded by going to Yelp to view the rating, reviews, and to look at the restaurant's website. to improve our time on site KPI and to improve the user experience, our next feature utilized the Yelp API to show users the restaurant rating, the number of reviews on Yelp, telephone number, and a link to the website. While we initially designed for information such as parking, dress code, and ambiance, we had to reassess based on time constraints and API data restrictions.</p>
 
-![Hey Bartender](moreinfo.png)
+![Hey Bartender](FinderIphone.png)
 
 ##Final Iteration
 <p class="body">At the end of the 10-week internship, Hey Bartender was in over 120 cities across the US, had 497 likes and 520 follows on Facebook, and 109 Instagram followers.</p>

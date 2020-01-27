@@ -42,7 +42,7 @@ export default () => (
                   subtitle={node.frontmatter.subtitle}
                   type={node.frontmatter.type}
                   fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
-                   />
+                  />
             ))}
          </div>
       )}

@@ -32,15 +32,15 @@ previousPage: /terrier-card
     
 </style>
 
-<h2 class="h2">Project Overview</h2>
-
-I joined JPMorgan Chase & Co. as a full-stack software engineer within Engineering &amp; Architecture. With my specializatiion in UX/UI development and previous experience as a UX/UI designer, I took the initiative to lead the redesign of a business intelligence & analytics tool utilized by the Chief Information Officer and his leadership team. While I cannot share specifics of the product, I would be more than happy to speak about my experiences in person.
-
 <div class="wrapper">
 <img src="./whiteboard.JPG" class="image">
 </div>
 
-<h2 class="afterImg">Redesigning the Product</h2>
+<h2 class="afterImg">Project Overview</h2>
+
+I joined JPMorgan Chase & Co. as a full-stack software engineer within Engineering &amp; Architecture. With my specializatiion in UX/UI development and previous experience as a UX/UI designer, I took the initiative to lead the redesign of a business intelligence & analytics tool utilized by the Chief Information Officer and his leadership team. While I cannot share specifics of the product, I would be more than happy to speak about my experiences in person.
+
+<h2>Redesigning the Product</h2>
 Without a design lead on my product team, I was the only member with any experience in UX and UI design. To learn more about the design processes and tools at JPMorgan Chase, I reached out to senior designers across the firm to understand their workflows and how to make compromises between design and engineering. I then conducted user interviews with senior leaders to identify pain points, developed highly-annotated wireframes, designed mockups and data visualizations, and conducted user testing with low and high-fidelity prototypes. 
 
 ###Development Story Board

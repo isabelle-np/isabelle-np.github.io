@@ -1,5 +1,5 @@
 ---
-id: 1
+id: 2
 title: "JPMorgan Chase"
 subtitle: "Business insights and analytics dashboard"
 type: "Web Application"
@@ -49,8 +49,6 @@ Without a design lead on my product team, I was the only member with any experie
 </div>
 
 To facilitate the hand-off process with an agile approach to development, I designed a development storyboard in which I broke down my final UI design into progressive mockups that could be finished in a single sprint. This provided the engineers, including myself, a clear road-map to how the product should develop over time without sacrificing the user experience.
-
-
 
 ##Front-end Architecture
 To familiarize myself with the existing code base, I self-audited the front-end code for architectural and accessibility issues. I noticed immediately that there was a lack of CSS architecture, specifically with handling colors and responsive design. While the product utilized Sass as a CSS preprocessor, Sass was not utilized to its potentential to decrease CSS bloat and to maximize modularity. I introduced a clean, reusable, and scalable CSS architecture using Sass to increase developer efficiency and to ensure a cohesive look and feel across all domains of the product.

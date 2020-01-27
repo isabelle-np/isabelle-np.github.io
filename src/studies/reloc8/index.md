@@ -82,7 +82,4 @@ Our product did not have the capability to consider if users lived in one state 
 ###Agree to Disagree
 <p class="body">As a team with strong personalities, we. To ensure that , I reached out to my other team mate to thank him for . We both agreed that we challenged each other and it helped to develop a better concept overall. Our goal was to build the best possible product at the hackathon, and we didn't put our personal feelings before that.</p>
 
-###Facebook Ads
-<p class="body">Based on Facebook's algorithm, advertisements work best with high relevance scores and long-running lifetimes. If we were to redo this project, we would focus on a few ads and run them for the duration of the 10 weeks.</p>
-
 <img src="/twocities.png">

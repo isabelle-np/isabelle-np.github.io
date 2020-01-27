@@ -124,7 +124,7 @@ function Resume() {
                 <div id="work" className={styles.section}>
                 <ul className={styles.bulletList}>
                     <li>JPMorgan Five Keys Award</li>
-                    <li>Six-Time Hackathon Winner</li>
+                    <li>Six-Time Collegiate Hackathon Winner</li>
                     <li>Model UN Best Delegate</li>
                     <li>Dean’s List</li>
                     <li>Gold Medal with All Columbian Honors from Columbia Scholastic Press</li>
@@ -135,7 +135,7 @@ function Resume() {
 
         <h2 className={styles.heading}>Interests</h2>
         <div id="interests" className={styles.section}>
-            <p>Powerlifting, Electronics &amp; Circuits, Languages, Accessibility, Diversity &amp; Inclusion in Technology</p>
+            <p className={styles.interests}>Powerlifting, Electronics &amp; Circuits, Languages, Accessibility, Diversity &amp; Inclusion in Technology</p>
         <Link to="/about" className={styles.link}>Learn more about me</Link>
         </div>
         </main>

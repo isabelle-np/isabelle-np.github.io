@@ -20,6 +20,10 @@
     font-size: 1rem;
     line-height: 1.75rem;
     font-weight: 300;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+
+    @media only screen and (min-width: 749px) {
+        width: 524px;
+    }
 }

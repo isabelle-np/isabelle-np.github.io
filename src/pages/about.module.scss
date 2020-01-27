@@ -1,14 +1,34 @@
 @import '../styles/global';
 
-.image {
-    width: 100%;
-    display: block;
-    @include rounded-corners;
-}
+
 
 .container {
     @include card;
     padding-left: 2rem;
+
+    @media only screen and (min-width: 834px) {
+        width: 800px;
+        padding: 2.5rem 6rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
+.image {
+    width: 90%;
+    display: block;
+    @include rounded-corners;
+    margin: 1.5rem auto;
+
+    @media only screen and (min-width: 834px) {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.body {
+    line-height: 2rem;
+}
  

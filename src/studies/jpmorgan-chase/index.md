@@ -20,27 +20,36 @@ previousPage: /terrier-card
     li {
         line-height: 2rem;
     }
+
+    img { 
+        width: 100%;
+        height: 30px;
+        border-radius: 15px;
+        margin-bottom: 2rem;
+    }
 </style>
 
 <h2 class="h2">Project Overview</h2>
 
 I joined JPMorgan Chase & Co. as a full-stack software engineer within Engineering &amp; Architecture. With my specializatiion in UX/UI development and previous experience as a UX/UI designer, I took the initiative to lead the redesign of a business intelligence & analytics tool utilized by the Chief Information Officer and his leadership team. While I cannot share specifics of the product, I would be more than happy to speak about my experiences in person.
 
+<img src="./whiteboard.JPG">
+
 ##Redesigning the Product
 Without a design lead on my product team, I was the only member with any experience in UX and UI design. To learn more about the design processes and tools at JPMorgan Chase, I reached out to senior designers across the firm to understand their workflows and how to make compromises between design and engineering. I then conducted user interviews with senior leaders to identify pain points, developed highly-annotated wireframes, designed mockups and data visualizations, and conducted user testing with low and high-fidelity prototypes. 
 
 ###Development Story Board
-<div class="image">
 
-![Storyboard Diagram](storyboard.png)
+<img src="./storyboard.png">
 
-</div>
 To facilitate the hand-off process with an agile approach to development, I designed a development storyboard in which I broke down my final UI design into progressive mockups that could be finished in a single sprint. This provided the engineers, including myself, a clear road-map to how the product should develop over time without sacrificing the user experience.
 
 
 
 ##Front-end Architecture
 To familiarize myself with the existing code base, I self-audited the front-end code for architectural and accessibility issues. I noticed immediately that there was a lack of CSS architecture, specifically with handling colors and responsive design. While the product utilized Sass as a CSS preprocessor, Sass was not utilized to its potentential to decrease CSS bloat and to maximize modularity. I introduced a clean, reusable, and scalable CSS architecture using Sass to increase developer efficiency and to ensure a cohesive look and feel across all domains of the product.
+
+<img src="./techconnect.JPG">
 
 ##Lessons Learned
 <h3 class="doubleHeader">Go to the Users</h3>
@@ -64,3 +73,5 @@ Whether it was an impediment slowing down my progress or how my team practiced A
     <li>Active site volunteer for recruiting and social engagements.</li>
     <li>Assisted in weekly yoga classes</li>
 </ul>
+
+<img src="./hackathon.jpg">

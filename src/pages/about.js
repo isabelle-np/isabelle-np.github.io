@@ -23,7 +23,6 @@ export default () => (
             <p className={`${styles.body} ${styles.container}`}>Outside of my 9-5, I'm a powerlifter and a budding yogi. I also develop content for a Youtube channel where I teach programming languages, frameworks, and tech topics like accessibility in a casual format with lots of memes. I'm a polymath who loves to learn, with my favorite subjects being medieval art history, electronics &amp; circuits, and surprisingly, math!</p>
             <img src={Powerlifting} className={styles.image} alt="Isabelle recieving gold and silver medals from her powerlifting meet"/>
             <p className={`${styles.body} ${styles.container}`}>Originally from Connecticut, I've lived in five countries, the United States, France, Vietnam, Singapore, and China, and speak four languages: English, Vietnamese, Mandarin Chinese, and French. I'm currently based in Philadelphia, Pennsylvania, eating my way through the city one cheesesteak at a time.</p>
-            <img src={TechConnect} className={styles.image} alt="Isabelle speaking at a conference"/>
         </main>
     </Layout>
 )

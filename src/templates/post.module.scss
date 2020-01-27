@@ -10,7 +10,7 @@ h2 {
     font-family: $heading-font;
     font-size: 1.5rem;
 	font-weight: 900;
-    margin: 0 0 0.5rem 0;
+    margin: 1rem 0 0 0;
     letter-spacing: 0px;
     color: $primary;
 }
@@ -25,8 +25,8 @@ h3 {
 .content {
     margin-top: 0;
     background-color: $white;
-    padding: 1rem 5rem 3rem;
     @include card;
+    padding: 1rem 2rem 3rem;
 
     @media only screen and (min-width: 834px) {
         width: 800px;
@@ -39,18 +39,40 @@ h3 {
 
 
 p {
-    margin: 1rem auto;
+    margin: 1rem auto 3rem;
 
 }
 
 .changeCaseStudy {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 2rem;
+
+    @media only screen and (min-width: 834px) {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        padding: 0;
+    }
 }
 
 .link {
-    color: $primary;
+    color: $secondary;
+    border: 1px solid $secondary;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    @include transition(background-color);
+
+    &:hover {
+        background: $primary;
+        color: $white;
+        border-color: $primary;
+    }
 }
 
 .image {

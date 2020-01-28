@@ -58,7 +58,7 @@ previousPage: /avrio
     <li>VPA (Revenue/Visits)</li>
 </ul>
 
-<img src="./banner.png">
+<img src="./mockup.png">
 
 <h2 class="afterImg">Define</h2>
 <h3 class="doubleHeader">The Prompt</h3>
@@ -118,7 +118,9 @@ By prioritizing these metrics, we were able to strategize our design, developmen
 ###Iterate and Improve
 <p class="body">While the engineers focused on building out the back-end to scale to new cities, I began iterating on the front-end based on the insights from user testing. This included optimizing advertisement space and enhancing the mobile experience. Simply by fixing the unnecessary scrolling for mobile users, we were able to decrease our bounce rate from 70% to 55%. As a team, we wanted to integrate Google Ads to boost our revenue. However, I was concerned with how it would impact the user experience of Hey Bartender. I wanted to ensure users that Hey Bartender is a website they could trust and feel safe using, not a questionable site overwhelmed with distracting ads and popups. While raising revenue was important, it wasn't the sole objective of our product. We wanted to solve a problem for our users, not create more. After researching user interaction and how users respond to UI elements in their peripheral vision, I redesigned the layout to accommodate ads on both desktop and mobile without distracting users from the core functionality of Hey Bartender.</p>
 
-<p class="body">When we asked users "After you have found a special you liked on our site, what would you do next?", they responded by going to Yelp to view ratings, reviews, and to look at the restaurant's website. To improve our time on site KPI and to improve the user experience, our next feature utilized the Yelp API to show users the restaurant rating, the number of reviews on Yelp, telephone number, and a link to the website. While I initially planned to include information such as parking, dress code, and ambiance, I had to reassess and define what were the core features that users would want, due to time constraints and API data restrictions.</p>
+<img src="./iterate.png">
+
+<p class="body afterImg">When we asked users "After you have found a special you liked on our site, what would you do next?", they responded by going to Yelp to view ratings, reviews, and to look at the restaurant's website. To improve our time on site KPI and to improve the user experience, our next feature utilized the Yelp API to show users the restaurant rating, the number of reviews on Yelp, telephone number, and a link to the website. While I initially planned to include information such as parking, dress code, and ambiance, I had to reassess and define what were the core features that users would want, due to time constraints and API data restrictions.</p>
 
 ![Hey Bartender](FinderIphone.png)
 

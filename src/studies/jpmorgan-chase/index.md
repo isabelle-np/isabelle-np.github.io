@@ -71,12 +71,12 @@ Whether it was an impediment slowing down my progress or how my team practiced A
 
 <ul>
     <li>Awarded the JPMorgan Chase Five Keys Award</li>
-    <li>Developed and led an accessibility workshop series for engineers as a member of the Software Engineering Program Continuous Learning workstream.</li>
+    <li>Developed and led an accessibility workshop series for engineers as a member of the Software Engineering Program Continuous Learning workstream</li>
     <li>Recruited software engineers with a focus on diversity and inclusion</li>
     <li>Mentored collegiate students at Hackathons as a representative of JPMorgan Chase</li>
-    <li>Mentor academic interns for career development</li>
+    <li>Mentored academic interns for career development</li>
     <li>Organized a week-long sustainability festival as a core member of the JPMorgan Chase Go Green team, supporting sustainable living and awareness</li>
-    <li>Active site volunteer for recruiting and social engagements.</li>
+    <li>Active site volunteer for recruiting and social engagements</li>
     <li>Assisted in weekly yoga classes</li>
 </ul>
 <div class="wrapper">

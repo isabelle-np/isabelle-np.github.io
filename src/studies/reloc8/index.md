@@ -43,7 +43,7 @@ previousPage: /jpmorgan-chase
 
 
 <h3 class="afterImg">The Solution</h3>
-<p class="body">We iterated on my original concept into a product that takes in your income and select behavior indicators to estimate how much money you have left after essential expenses and related expenses are paid. We also take into consideration the user's current lifestyle and how much it would cost to sustain it. Factors such as roommates, type of housing, mode of transportation, and how often you eat out personalizes the algorithm to calculate a realistic estimation.</p>
+<p class="body">We iterated on my original concept into a product that takes in your income and select behavior indicators to estimate how much money you have left after essential expenses and lifestyle expenses are paid. We also took into consideration the user's current lifestyle and how much it would cost to sustain it. Factors such as roommates, type of housing, mode of transportation, and how often you eat out personalized the algorithm to calculate a realistic estimation.</p>
 
 <img src="/lifestyle.png">
 
@@ -64,7 +64,7 @@ previousPage: /jpmorgan-chase
 <img src="/result.png">
 
 <h3 class="afterImg">The Calculations</h3>
-<p class="body">To calculate the costs of living, our algorithm was based on data from the U.S. Bureau of Labor Statistics and the Census Consumer Expenditure Surveys. We developed price baskets representative of different states and used them as a baseline for comparison, paired with the user inputs on lifestyle. We also utilized the Taxee API to calculate how much we have to deduct due to federal and state taxes.</p>
+<p class="body">To calculate the costs of living, our algorithm was based on data from the U.S. Bureau of Labor Statistics and the Census Consumer Expenditure Surveys. We developed price baskets representative of different states and used them as a baseline for comparison, paired with the user's inputs on lifestyle. We also utilized the Taxee API to calculate how much we had to deduct due to federal and state taxes.</p>
 
 ###Back-end Blockers
 <p class="body">Unfortunately, we were unable to get the back-end APIs working, so 6 hours before the deadline, I had to pivot and hard code the data into the front-end to mock the interactions with JavaScript. As the only member on my team with front-end engineering experience, I developed the entire working prototype before judging with the encouragement of my team and a lot of coffee.</p>

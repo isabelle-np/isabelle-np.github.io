@@ -42,7 +42,7 @@ previousPage: /reloc8
 
 <h3 class="doubleHeader">Touch ID</h3>
 
-<p class="body">While convinience was a guiding principle throughout my redesign process, I wanted to ensure the security of the app. After researching how other banking applications secured sensitive personal data and protected themselves from malicious activity, I integrated a Touch ID set-up flow to heighten security. This also prevents users from having to enter all of their log in details while waiting in line to pay. After Touch ID is set up, adding money to your account would require a quick thumbprint before the transaction would initiate, a simple action that can be done with one hand.</p>
+<p class="body">While convinience was a guiding principle throughout my redesign process, I wanted to ensure the security of the app. After researching how large financial institutions secure their customers' sensitive data and how they protected themselves from malicious activity, I integrated a Touch ID set-up flow. This also prevents users from having to enter all of their log in details while waiting in line to pay. After Touch ID is set up, adding money to your account would require a quick thumbprint before the transaction would initiate, a simple action that can be done with one hand.</p>
 
 <img src="./touchid.png">
 
@@ -62,7 +62,7 @@ previousPage: /reloc8
 <img src="./dining.png">
 
 <h2 class="afterImg">Lessons Learned</h2>
-<h3 class="doubleHeader">Focus your efforts on the most meaningful work</h3>
+<h3 class="doubleHeader">Focus your efforts</h3>
 <p class="body">By narrowing my focus to the interactions of students with their finances, I was able to dedicate all of my time and attention to building a thorough application. I challenged myself to take simple processes and make them even simplier, aesthetic, and enjoyable to use.</p>
 
 ###Don't Reinvent The Wheel

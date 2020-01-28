@@ -2,7 +2,7 @@
 id: 6
 title: "Powerlifting DB"
 subtitle: "Relational database design for a powerlifting federation"
-type: "Database Modelling"
+type: "Database Modeling"
 featuredImage: openpl.png
 nextPage: /hey-bartender
 previousPage: /avrio

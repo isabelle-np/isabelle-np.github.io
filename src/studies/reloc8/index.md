@@ -27,62 +27,57 @@ previousPage: /jpmorgan-chase
 
 <img src="./home.png">
 <h2 class="h2 afterImg">Project Overview</h2>
-<p class="body">Awarded Best Financial Hack from Capital One and Best Business Plan from Cornell University, Reloc8 helps users compare various salaries in different cities by calculating monthly displosable income post-tax and post-essential expenses such as rent and groceries. Reloc8's uniqueness lies in its consideration of federal and state tax, lifestyle choices, and a simple, modern user interface.</p>
+<p class="body">Reloc8 compares various salaries in different cities by calculating disposable income post-tax and post-essential expenses such as rent and groceries. Reloc8's uniqueness lies in its consideration of federal and state tax, lifestyle choices, and a simple, modern user interface. It was awarded Best Financial Hack from Capital One and Best Business Plan from Cornell University.</p>
 
 ##Define
 <h3 class="doubleHeader">The Problem</h3>
-<p class="body">I competed in the Big Red Hacks hackathon hosted by Cornell University. With a focus on financial literacy and fintech, my team and I explored the problems and inconviniences in this realm that could be solved or mitigated by technology. As a then-senior in college, I reflected on my own experiences: I was about to move to a new city in a new state for my first job, unsure about what my cost of living would be like beyond broad comparisons to my current location. I hypothesized that college graduates and young professionals often move to new cities and relocate for work early on in their careers. This is also a time where they cannot be financially flexible. With so many factors to consider, young professionals cannot easily conceptualize costs of living after taking into consideration federal and state taxes as well as their lifestyle choices. Reloc8 was built to bridge this gap to ensure young professionals have a better understanding of how their expenses will pan out in a new city, allowing them to budget appropriately prior to the move itself.</p>
+<p class="body">I competed in the Big Red Hacks hackathon hosted by Cornell University as the only student from Boston University. After finding a team to work with for the weekend, we decided to focus on the areas of financial literacy and fintech. As a then-senior in college, I reflected on my own experiences: I was about to move to a new city in a new state for my first job, unsure about what my cost of living would be like beyond broad comparisons to my current location. I hypothesized that college graduates and young professionals often move to new cities and relocate for work early on in their careers. This is also a time where they cannot be financially flexible. With so many factors to consider, young professionals cannot easily conceptualize the impact that taxes and lifestyle choices have on their financial situations.</p>
 
-###The Users
-<p class="body">Since other hackathon participants were also college students and young professionals, I conducted multiple rounds of concept testing to ensure that our intended user base experiences these difficulties and that our approach would successfully solve these issues. My initial assumptions were confirmed and I also discovered that these young professionals spent a lot of time researching and comparing employment offers in different cities with varying salaries.</p>
-
-###The Solution
-We iterated on my original concept to calculate and show users their monthly disposable income after taxes and other expenses in two different cities. Reloc8 takes in your income and select behavior indicators to estimate how much income you have left after essential expenses and related expenses to maintining your current lifestyle. Factors such as roommates, type of apartment or home, mode of transportation to work, and how often you eat out personalizes the algorithm to calculate an accurate estimation of your monthly disposable income. Reloc8 also provides helpful tips to make living in a city more affordable by suggesting alternatives to housing and transportation. Additionally, it is also a platform to host partners such as zillow and uhaul so users can access those services easily.
-
-###The Business Plan
-In order to make this product profitable, we decided to capitalize on the numerous costs of moving. Reloc8 would serve as a platform to host external partners and vendors by providing meaningful resouces for those who are moving. This includes negotiated packages and direct links to moving companies, truck rentals, real estate agencies, property listings, and home owner's insurance providers. At the conclusion of the hackathon, we integrated the Zillow and ... APIs to show usres rentals and homes available in both cities 
-<img src="/market.png">
-
-<h2 class="afterImg">Ideate</h2>
-
-<p class="body">With only 36 hours to complete the product, I quickly wireframed the general flow of the product. I also quickly mocked-up the UI to give myself a general direction of where the product would go. Many design decisions were made on the fly as I was developing the front-end.</p>
-<img src="/wireframe.png">
-
-
-##Build
-
-<h3 class="doubleHeader">Front-End</h3>
-<p class="body">Given the working window, I decided to develop the front-end using only HTML5, CSS3, and JavaScript ES5, as I felt extremely confident that I could finish the web application within 36 hours using these technologies. Given the</p>
-<img src="/result.png">
-
-###The Calculations
-<p class="body">To calculate the costs of living, we referenced . We then pooled items that we  to form our own price baskets. We then used that coefficient with the api to calculate the expenses. We also utilized a 3rd party API, Taxee, to calculate federal and income.
-
-###Back-end Blockers
-<p class="body">Unfortunately, we were unable to get the back-end APIs working, so 6 hours before the deadline, I had to pivot and hard code the data into the front-end and mock the interactions with JavaScript. As the only member on my team with front-end engineering experience, I developed the entire working prototype before judging with the encouragement of my team and a lot of coffee.</p>
 <img src="/salary.png">
+
+<h3 class="afterImg">The idea</h3>
+<p class="body">After sharing my idea, there was hesitation within the team whether or not it was innovative enough. Moreover, if young adults even faced this issue. I asked my team members to continue challenging the concept to refine my reasons for choosing one idea over the other. As a team, we were still divided on two directions to take. Since the hackathon was only 36 hours and we spent a whole afternoon going back and forth, I recommended that we break into pairs and spend 10 minutes interviewing users. Since other hackathon participants were in my target demographic, I conducted multiple rounds of concept testing where I found my initial assumptions to be confirmed. I also discovered that young professionals spend a lot of time researching and comparing employment offers in different cities with varying salaries. My teammate and I brought back our findings and presented the case for taking on this project, based on the response from users and its feasibility, given our range in skills. We decided as a team to develop this idea further to ensure young professionals have a better understanding of how their expenses will pan out in a new city, allowing them to budget appropriately before moving.
+</p>
+
 <img src="/housing.png">
+
+
+<h3 class="afterImg">The Solution</h3>
+<p class="body">We iterated on my original concept into a product that takes in your income and select behavior indicators to estimate how much money you have left after essential expenses and related expenses are paid. We also take into consideration the user's current lifestyle and how much it would cost to sustain it. Factors such as roommates, type of housing, mode of transportation, and how often you eat out personalizes the algorithm to calculate a realistic estimation.</p>
+
 <img src="/lifestyle.png">
 
-<h2 class="afterImg">If I had more time:</h2>
-<h3 class="doubleHeader">Mobile First</h3>
-<p class="body">Given the time constraints, I focused on developing a desktop version of the product. If there had been more time, I would have started development mobile-first and then gradually responsive at the desktop level.</p>
 
-###Clean Code and Accessibility
-<p class="body">Pressed for time, I had to compromise on clean code practices in order to present a working prototype to the judges. There was no architecture to the front-end code and not Section 508 nor WCAG 2.1 compliant. If given more time, I would refactor my code ensure that the HTML is semantic and accessible. In retrospect, utilizing a preprocessor such as Sass would have increased my productivity with styling, however, given that I was both the designer and the engineer, I was able to ensure a cohesive look and feel across the product.</p>
+<h3 class="afterImg">The Business Plan</h3>
+<p class="body">To make this product profitable, we decided to capitalize on the numerous costs involved with moving. Reloc8 would serve as a platform to host external partners and vendors by providing meaningful resources for our users. This includes negotiated packages and direct links to moving companies, truck rentals, real estate agencies, property listings, and home owner's insurance providers. By the end of the hackathon, we integrated the Zillow and Realtor.com APIs to display rentals and homes available in both cities.</p>
+<img src="/market.png">
 
-###Modularize the Code
-<p class="body">The front-end was also not modularized</p>
+<h2 class="afterImg">Build</h2>
 
-###Add more Personalization
-<p class="body">Our product did not have the capability to consider if users lived in one state but worked in another, therefore getting double taxed.</p>
+<h3 class="doubleHeader">Wireframes</h3>
+<p class="body">As the only team member with UI development and design experience, I took the lead by shaping our product's front-end. With only 36 hours to complete the product, I quickly wireframed the general flow and structure of the website. I also quickly mocked-up the UI to give myself a general direction of where the product would go. Many design decisions were made on the fly as I was developing the front-end.</p>
+
+<img src="/wireframe.png">
+
+<h3 class="afterImg">Front-End</h3>
+<p class="body">Given the working window, I decided to develop the front-end using only HTML5, CSS3, and JavaScript ES5. I felt extremely confident that I could finish the web application within 36 hours by myself using these technologies, however, I knew compromises had to be made. To deliver a working prototype in time, I focused on developing a desktop version of the product, sacrificing a mobile-first approach and responsiveness. Pressed for time, I also had to compromise on clean code practices. There was no architecture to the front-end code and it was not Section 508 nor WCAG 2.1 compliant. If given more time, I would refactor my code to ensure that the HTML is semantic and the CSS is modular. In retrospect, utilizing a preprocessor such as Sass would have increased my productivity with styling, however, given that I was both the designer and the front-end engineer, I was able to ensure a cohesive look and feel across the product.</p>
+<img src="/result.png">
+
+<h3 class="afterImg">The Calculations</h3>
+<p class="body">To calculate the costs of living, our algorithm was based on data from the U.S. Bureau of Labor Statistics and the Census Consumer Expenditure Surveys. We developed price baskets representative of different states and used them as a baseline for comparison, paired with the user inputs on lifestyle. We also utilized the Taxee API to calculate how much we have to deduct due to federal and state taxes.</p>
+
+###Back-end Blockers
+<p class="body">Unfortunately, we were unable to get the back-end APIs working, so 6 hours before the deadline, I had to pivot and hard code the data into the front-end to mock the interactions with JavaScript. As the only member on my team with front-end engineering experience, I developed the entire working prototype before judging with the encouragement of my team and a lot of coffee.</p>
+
+<img src="twoshort.png">
+
+<h2 class="afterImg">Lessons Learned</h2>
+<h3 class="doubleHeader">Disagree Productively</h3>
+<p class="body">As a team with strong personalities, we disagreed a lot at the beginning during the ideation phase. We all had different experiences and different thoughts on what would be the best idea to pursue. I soon noticed that while we were challenging each other with good points, we weren't doing anything. This led me to recommend that we take action and start interviewing our users. After we decided to further develop my original concept, I reached out to my other teammate to thank him for questioning my idea every step of the way. We both agreed that we challenged each other to think of our solutions differently and to look for every flaw in our logic. As a team, our goal was to build the best possible product at the hackathon, and we didn't put our personal feelings before that.</p>
+
+<h3 class="doubleHeader">Compromises Between Perfection and Production</h3>
+<p class="body">Given the time constraints, I knew I had to compromise on having a clean, efficient product. It was unrealistic to implement every best practice and to deliver a working website in time for judging. As a designer and an engineer, it's easy to get hung up on the process and following a guide step by step, but it's also important to understand external factors that can make or break your success.</p>
 
 
-##Lessons Learned
-<h3 class="doubleHeader">Compromise Between Perfection and Production</h3>
-<p class="body">Especially since we were working with APIs, reaching out to users online, and scraping data, I learned a lot about compliance in regards to technology to make sure that we were within good standing. By making compliance a priority from the beginning, we were able to prevent unexpected pivots during the design and development stages.</p>
-
-###Agree to Disagree
-<p class="body">As a team with strong personalities, we. To ensure that , I reached out to my other team mate to thank him for . We both agreed that we challenged each other and it helped to develop a better concept overall. Our goal was to build the best possible product at the hackathon, and we didn't put our personal feelings before that.</p>
 
 <img src="/twocities.png">

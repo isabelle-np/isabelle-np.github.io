@@ -62,7 +62,7 @@ function Resume() {
                     location="Boston, MA">
                     <ul className={styles.bulletList}>
                         <li>Revitalized the company website and integrated an AI chatbot, decreasing bounce rate by 22% and increasing leads by 36%</li>
-                        <li>Developed a corporate visual identity guide to ensure company-wide cohesiveness</li>
+                        <li>Developed a corporate visual identity guide to ensure company-wide cohesiveness </li>
                         <li>Designed visual assets for inbound marketing campaigns</li>
                     </ul>
                 </Job>

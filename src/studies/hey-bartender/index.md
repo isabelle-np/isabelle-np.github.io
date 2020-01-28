@@ -36,6 +36,10 @@ previousPage: /avrio
     .link:hover {
         color: #E74832;
     }
+
+    .nomargin {
+        margin-bottom: 0;
+    }
 </style>
 
 <img src="./FinderIpad.png">
@@ -74,8 +78,7 @@ previousPage: /avrio
 ![Hey Bartender](persona2.png)
 
 ###Success
-<p class="body">While we were given 10 KPIs, we prioritized certain metrics to reflect our definition of success for Hey Bartender. Based on the user's ideal experience with our website, we wanted to focus on the following KPIs:</p>
-
+<p class="nomargin">While we were given 10 KPIs, we prioritized certain metrics to reflect our definition of success for Hey Bartender. Based on the user's ideal experience with our website, we wanted to focus on the following KPIs:</p>
 <ul>
     <li>Total Visits</li>
     <li>Bounce Rate</li>
@@ -125,8 +128,10 @@ By prioritizing these metrics, we were able to strategize our design, developmen
 ![Hey Bartender](FinderIphone.png)
 
 ##Final Iteration
-###Final KPIs
+<h3 class="doubleHeader">Final KPIs</h3>
+
 ![Hey Bartender](kpi.png)
+
 ###Next Steps
 <p class="body">At the end of the 10-week internship, Hey Bartender was in over 120 cities across the US. This project is being taken over by a team at Cogo Labs, thus changes to Hey Bartender's style and functionality may be changed. I did, however, design what I hoped Hey Bartender could one day become, an interactive map where users can explore areas near them.</p>
 

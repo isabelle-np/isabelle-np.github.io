@@ -4,8 +4,8 @@ title: "Avrio AI"
 subtitle: Custom website redesign built on HubSpot
 type: "Marketing Website"
 featuredImage: logo.png
-nextPage: /reloc8
-previousPage: /avrio
+nextPage: /powerlifting-db
+previousPage: /terrier-card
 ---
 
 <style>
@@ -17,6 +17,10 @@ previousPage: /avrio
     .doubleHeader {
         margin-top: 0.5rem;
         margin-bottom: 1rem;
+    }
+
+    .afterImg {
+        margin-top: 3rem
     }
 
 </style>
@@ -44,10 +48,7 @@ previousPage: /avrio
 <img src="./contact.png">
 
 ###Mockup and Style Guide
-<p class="body">During the wireframe hand-off process, the product side of our team had difficulty with naming conventions and making our code as clear and concise as could be. To solve this issue, I led a meeting with all members of our team to establish a common vocabulary in naming UI components on our site, as well as event trackers to analyze our users and their behaviors. By building a common vocabulary, we were able to work more efficiently and could all partake in conversations regarding our website. I also established scalable design patterns and code practices which allowed us to quickly grow our product beyond the MVP stage.</p>
-
-<img src="./styleguide.png">
-<a class="link" href="./styleguide.pdf" target="_blank" rel="noopener noreferrer">View full style guide</a>
+<p class="body">During the wireframe hand-off process, the product side of our team had difficulty with naming conventions and making our code as clear and concise as could be. To solve this issue, I led a meeting with all members of our team to establish a common vocabulary</p>
 
 <p class="body">I also created a style and branding guide to assist the engineers with the development of our site. Before the launch of our MVP, and subsequent update releases, I did a front-end style pass through the website to ensure consistency across all devices.</p>
 
@@ -57,7 +58,7 @@ previousPage: /avrio
 
 <img src="./infographic.png">
 
-##Lessons Learned
+<h2 class="afterImg">Lessons Learned</h2>
 <h3 class="doubleHeader">Get Thrifty</h3>
 <p class="body">While there were beautiful, my manager expressed that she would prefer not to spend money on a theme. She also wanted to stay within the HubSpot ecosystem to continue tracking analytics on Avrio's website traction and inbound marketing campaigns. While I was unfamiliar with the HubSpot platform, especially with designing a theme for hubspot, I quickly found an online course to guide me through the process. While the platform was unintuive and difficult to develop upon, I evntually brought my designs into life.</p>
 

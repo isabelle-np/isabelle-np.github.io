@@ -5,7 +5,7 @@ subtitle: Salary calculator based on location and lifestyle
 type: Web Application
 featuredImage: logo.png
 nextPage: /terrier-card
-previousPage: /avrio
+previousPage: /jpmorgan-chase
 ---
 
 <style>
@@ -19,16 +19,18 @@ previousPage: /avrio
         margin-bottom: 1rem;
     }
 
+    .afterImg {
+        margin-top: 3rem
+    }
+
 </style>
 
 <img src="./home.png">
-<h2 class="h2">Project Overview</h2>
-Awarded Best Financial Hack from Capital One and Best Business Plan from Cornell University, Reloc8 helps users compare various salaries in different cities by calculating monthly displosable income post-tax and post-essential expenses such as rent and groceries. Reloc8's uniqueness lies in its consideration of federal and state tax, lifestyle choices, and a simple, modern user interface.
-
-
+<h2 class="h2 afterImg">Project Overview</h2>
+<p class="body">Awarded Best Financial Hack from Capital One and Best Business Plan from Cornell University, Reloc8 helps users compare various salaries in different cities by calculating monthly displosable income post-tax and post-essential expenses such as rent and groceries. Reloc8's uniqueness lies in its consideration of federal and state tax, lifestyle choices, and a simple, modern user interface.</p>
 
 ##Define
-###The Problem
+<h3 class="doubleHeader">The Problem</h3>
 <p class="body">I competed in the Big Red Hacks hackathon hosted by Cornell University. With a focus on financial literacy and fintech, my team and I explored the problems and inconviniences in this realm that could be solved or mitigated by technology. As a then-senior in college, I reflected on my own experiences: I was about to move to a new city in a new state for my first job, unsure about what my cost of living would be like beyond broad comparisons to my current location. I hypothesized that college graduates and young professionals often move to new cities and relocate for work early on in their careers. This is also a time where they cannot be financially flexible. With so many factors to consider, young professionals cannot easily conceptualize costs of living after taking into consideration federal and state taxes as well as their lifestyle choices. Reloc8 was built to bridge this gap to ensure young professionals have a better understanding of how their expenses will pan out in a new city, allowing them to budget appropriately prior to the move itself.</p>
 
 ###The Users
@@ -41,7 +43,7 @@ We iterated on my original concept to calculate and show users their monthly dis
 In order to make this product profitable, we decided to capitalize on the numerous costs of moving. Reloc8 would serve as a platform to host external partners and vendors by providing meaningful resouces for those who are moving. This includes negotiated packages and direct links to moving companies, truck rentals, real estate agencies, property listings, and home owner's insurance providers. At the conclusion of the hackathon, we integrated the Zillow and ... APIs to show usres rentals and homes available in both cities 
 <img src="/market.png">
 
-##Ideate
+<h2 class="afterImg">Ideate</h2>
 
 <p class="body">With only 36 hours to complete the product, I quickly wireframed the general flow of the product. I also quickly mocked-up the UI to give myself a general direction of where the product would go. Many design decisions were made on the fly as I was developing the front-end.</p>
 <img src="/wireframe.png">
@@ -57,22 +59,23 @@ In order to make this product profitable, we decided to capitalize on the numero
 <p class="body">To calculate the costs of living, we referenced . We then pooled items that we  to form our own price baskets. We then used that coefficient with the api to calculate the expenses. We also utilized a 3rd party API, Taxee, to calculate federal and income.
 
 ###Back-end Blockers
-Unfortunately, we were unable to get the back-end APIs working, so 6 hours before the deadline, I had to pivot and hard code the data into the front-end and mock the interactions with JavaScript. As the only member on my team with front-end engineering experience, I developed the entire working prototype before judging with the encouragement of my team and a lot of coffee.
+<p class="body">Unfortunately, we were unable to get the back-end APIs working, so 6 hours before the deadline, I had to pivot and hard code the data into the front-end and mock the interactions with JavaScript. As the only member on my team with front-end engineering experience, I developed the entire working prototype before judging with the encouragement of my team and a lot of coffee.</p>
 <img src="/salary.png">
 <img src="/housing.png">
 <img src="/lifestyle.png">
-##If I had more time...
-###Mobile First
-Given the time constraints, I focused on developing a desktop version of the product. If there had been more time, I would have started development mobile-first and then gradually responsive at the desktop level.
+
+<h2 class="afterImg">If I had more time:</h2>
+<h3 class="doubleHeader">Mobile First</h3>
+<p class="body">Given the time constraints, I focused on developing a desktop version of the product. If there had been more time, I would have started development mobile-first and then gradually responsive at the desktop level.</p>
 
 ###Clean Code and Accessibility
-Pressed for time, I had to compromise on clean code practices in order to present a working prototype to the judges. There was no architecture to the front-end code and not Section 508 nor WCAG 2.1 compliant. If given more time, I would refactor my code ensure that the HTML is semantic and accessible. In retrospect, utilizing a preprocessor such as Sass would have increased my productivity with styling, however, given that I was both the designer and the engineer, I was able to ensure a cohesive look and feel across the product.
+<p class="body">Pressed for time, I had to compromise on clean code practices in order to present a working prototype to the judges. There was no architecture to the front-end code and not Section 508 nor WCAG 2.1 compliant. If given more time, I would refactor my code ensure that the HTML is semantic and accessible. In retrospect, utilizing a preprocessor such as Sass would have increased my productivity with styling, however, given that I was both the designer and the engineer, I was able to ensure a cohesive look and feel across the product.</p>
 
 ###Modularize the Code
-The front-end was also not modularized
+<p class="body">The front-end was also not modularized</p>
 
 ###Add more Personalization
-Our product did not have the capability to consider if users lived in one state but worked in another, therefore getting double taxed.
+<p class="body">Our product did not have the capability to consider if users lived in one state but worked in another, therefore getting double taxed.</p>
 
 
 ##Lessons Learned

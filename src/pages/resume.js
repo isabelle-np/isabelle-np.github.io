@@ -33,7 +33,7 @@ function Resume() {
                     <ul className={styles.bulletList}>
                         <li>Led the redesign of a business intelligence and analytics web application for C-Suite executives as the sole designer</li>
                         <li>Created a W3C compliant GUI for an automated trading system to monitor trading activity on simulated markets</li>
-                        <li>Increased developer productivity by implementing CSS architecture, a UI library, and a style guide</li>
+                        <li>Increased developer productivity by implementing CSS architecture, a UI library, and a design system</li>
                         
                     </ul>
                 </Job>

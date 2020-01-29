@@ -36,14 +36,14 @@ previousPage: /jpmorgan-chase
 <img src="/salary.png">
 
 <h3 class="afterImg">The idea</h3>
-<p class="body">After sharing my idea, there was hesitation within the team whether or not it was innovative enough. Moreover, if young adults even faced this issue. I asked my team members to continue challenging the concept to refine my reasons for choosing one idea over the other. As a team, we were still divided on two directions to take. Since the hackathon was only 36 hours and we spent a whole afternoon going back and forth, I recommended that we break into pairs and spend 10 minutes interviewing users. Since other hackathon participants were in my target demographic, I conducted multiple rounds of concept testing where I found my initial assumptions to be confirmed. I also discovered that young professionals spend a lot of time researching and comparing employment offers in different cities with varying salaries. My teammate and I brought back our findings and presented the case for taking on this project, based on the response from users and its feasibility, given our range in skills. We decided as a team to develop this idea further to ensure young professionals have a better understanding of how their expenses will pan out in a new city, allowing them to budget appropriately before moving.
+<p class="body">After sharing my idea, the team was hesitant as to whether or not it was innovative enough or if young adults even faced this issue. I asked my team members to continue challenging the concept to refine my reasons for choosing one idea over the other. As a team, we were still divided on two directions to take. Given the time contraints, I recommended that we break into pairs and spend 10 minutes interviewing users. Since other hackathon participants were in my target demographic, I conducted multiple rounds of concept testing where I found my initial assumptions to be confirmed. I also discovered that young professionals spend a copious amount of time researching and comparing employment offers in different cities with varying salaries. My teammate and I brought back our findings and presented the case for taking on this project based on the response from users, its feasibility, and our range of skills. We decided as a team to develop this idea further to ensure young professionals have a better understanding of how their expenses will pan out in a new city, allowing them to budget appropriately before moving.
 </p>
 
 <img src="/housing.png">
 
 
 <h3 class="afterImg">The Solution</h3>
-<p class="body">We iterated on my original concept into a product that takes in your income and select behavior indicators to estimate how much money you have left after essential expenses and lifestyle expenses are paid. We also took into consideration the user's current lifestyle and how much it would cost to sustain it. Factors such as roommates, type of housing, mode of transportation, and how often you eat out personalized the algorithm to calculate a realistic estimation.</p>
+<p class="body">We iterated on my original concept into a product that factors in your income and select behavior indicators to estimate how much money you have left after essential and lifestyle expenses are paid. We also took into consideration the user's current lifestyle and how much it would cost to sustain it. Factors such as roommates, type of housing, mode of transportation, and how often you eat out personalized the algorithm to calculate a realistic estimation.</p>
 
 <img src="/lifestyle.png">
 
@@ -55,28 +55,28 @@ previousPage: /jpmorgan-chase
 <h2 class="afterImg">Build</h2>
 
 <h3 class="doubleHeader">Wireframes</h3>
-<p class="body">As the only team member with UI development and design experience, I took the lead by shaping our product's front-end. With only 36 hours to complete the product, I quickly wireframed the general flow and structure of the website. I also quickly mocked-up the UI to give myself a general direction of where the product would go. Many design decisions were made on the fly as I was developing the front-end.</p>
+<p class="body">As the only team member with UI development and design experience, I took the lead by shaping our product's front-end. With only 36 hours to complete the product, I quickly wireframed the general flow and structure of the website. Despite this general framework, many design decisions were made on the fly as I was developing the front-end. </p>
 
 <img src="/wireframe.png">
 
 <h3 class="afterImg">Front-End</h3>
-<p class="body">Given the working window, I decided to develop the front-end using only HTML5, CSS3, and JavaScript ES5. I felt extremely confident that I could finish the web application within 36 hours by myself using these technologies, however, I knew compromises had to be made. To deliver a working prototype in time, I focused on developing a desktop version of the product, sacrificing a mobile-first approach and responsiveness. Pressed for time, I also had to compromise on clean code practices. There was no architecture to the front-end code and it was not Section 508 nor WCAG 2.1 compliant. If given more time, I would refactor my code to ensure that the HTML is semantic and the CSS is modular. In retrospect, utilizing a preprocessor such as Sass would have increased my productivity with styling, however, given that I was both the designer and the front-end engineer, I was able to ensure a cohesive look and feel across the product.</p>
+<p class="body">Despite my confidence that I could finish the application within 36 hours, I knew compromises had to be made. For example, I focused on developing a desktop version of the product, sacrificing a mobile-first approach and responsiveness. In retrospect, utilizing a preprocessor such as Sass would have increased my productivity with styling. Though, given that I was both the designer and the front-end engineer, I ensured a cohesive look and feel across the product.</p>
 <img src="/result.png">
 
 <h3 class="afterImg">The Calculations</h3>
-<p class="body">To calculate the costs of living, our algorithm was based on data from the U.S. Bureau of Labor Statistics and the Census Consumer Expenditure Surveys. We developed price baskets representative of different states and used them as a baseline for comparison, paired with the user's inputs on lifestyle. We also utilized the Taxee API to calculate how much we had to deduct due to federal and state taxes.</p>
+<p class="body">To calculate the costs of living, our algorithm was based on data from the U.S. Bureau of Labor Statistics and the Census Consumer Expenditure Surveys. We developed price baskets representative of different States and used them as a baseline for comparison, paired with the user's inputs on lifestyle. We also utilized the Taxee API to calculate how much we had to deduct due to federal and state taxes.</p>
 
 ###Back-end Blockers
-<p class="body">Unfortunately, we were unable to get the back-end APIs working, so 6 hours before the deadline, I had to pivot and hard code the data into the front-end to mock the interactions with JavaScript. As the only member on my team with front-end engineering experience, I developed the entire working prototype before judging with the encouragement of my team and a lot of coffee.</p>
+<p class="body">Unfortunately, we were unable to get the back-end APIs working. Six hours before the deadline, I pivoted and hard coded the data to mock the interactions with JavaScript. As the only member on my team with front-end engineering experience, I developed the entire working prototype before presenting to the judges with the encouragement of my team and a lot of coffee.</p>
 
 <img src="twoshort.png">
 
 <h2 class="afterImg">Lessons Learned</h2>
 <h3 class="doubleHeader">Disagree Productively</h3>
-<p class="body">As a team with strong personalities, we disagreed a lot at the beginning during the ideation phase. We all had different experiences and different thoughts on what would be the best idea to pursue. I soon noticed that while we were challenging each other with good points, we weren't doing anything. This led me to recommend that we take action and start interviewing our users. After we decided to further develop my original concept, I reached out to my other teammate to thank him for questioning my idea every step of the way. We both agreed that we challenged each other to think of our solutions differently and to look for every flaw in our logic. As a team, our goal was to build the best possible product at the hackathon, and we didn't put our personal feelings before that.</p>
+<p class="body">As a team with strong personalities, we disagreed at the beginning during the ideation phase. We all had different experiences and different thoughts on what would be the best idea to pursue. I soon noticed that while we were challenging each other with valid points, we weren't doing anything. Therefore, I recommend we take action and start interviewing our users. After we decided to further develop my original concept, Atthe end of the hackathon and agreed that challenging each other to think of our solutions different was productive.</p>
 
-<h3 class="doubleHeader">Compromises Between Perfection and Production</h3>
-<p class="body">Given the time constraints, I knew I had to compromise on having a clean, efficient product. It was unrealistic to implement every best practice and to deliver a working website in time for judging. As a designer and an engineer, it's easy to get hung up on the process and following a guide step by step, but it's also important to understand external factors that can make or break your success.</p>
+<h3 class="doubleHeader">Decide and Commit</h3>
+<p class="body">Given the time constraints, I knew I had to compromise on having a clean, efficient product. It was unrealistic to implement every best practice and to deliver a working website in time for judging. As a designer and an engineer, it's easy to get hung up on the process and following a guide step by step, but it's also important to understand external factors that can make or break your success.</p> If we talk about it all day it's not gonna get don't.
 
 
 

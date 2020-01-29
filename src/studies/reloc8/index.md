@@ -45,7 +45,7 @@ previousPage: /jpmorgan-chase
 
 
 <h3 class="afterImg">The Solution</h3>
-<p class="body">We iterated on my original concept into a product that factors in your income and select behavior indicators to estimate how much money would be left after essential and lifestyle expenses are paid. We also took into consideration the user's current lifestyle and how much it would cost to sustain it. Factors such as roommates, type of housing, mode of transportation, and number of meals eaten out personalizes the algorithm to calculate a realistic estimation.</p>
+<p class="body">We iterated on my original concept into a product that factors in your income and select behavior indicators to estimate how much money would be left after essential and lifestyle expenses are paid. We also took into consideration the user's current lifestyle and how much it would cost to sustain it. Factors such as roommates, type of housing, mode of transportation, and the number of meals eaten out personalize the algorithm to calculate a realistic estimation.</p>
 
 <img src="/lifestyle.png">
 
@@ -71,13 +71,13 @@ previousPage: /jpmorgan-chase
 <p class="body">To calculate the costs of living, our algorithm was based on data from the U.S. Bureau of Labor Statistics and the Census Consumer Expenditure Surveys. We developed price baskets representative of different States and used them as a baseline for comparison, paired with the user's inputs on lifestyle. We also utilized the Taxee API to calculate how much we had to deduct due to federal and state taxes.</p>
 
 ###Back-end Blockers
-<p class="body">Unfortunately, we were unable to get the back-end APIs working. Six hours before the deadline, I pivoted and hard coded the data to mock the interactions on our product. Being the only front-end engineer on the team, I developed the entire working prototype before presenting to the judges.
+<p class="body">Unfortunately, we were unable to get the back-end APIs working. Six hours before the deadline, I pivoted and hardcoded the data to mock the interactions on our product. Being the only front-end engineer on the team, I developed the entire working prototype before presenting it to the judges.
 </p>
 
 <img src="twoshort.png">
 
 <h2 class="afterImg">Lessons Learned</h2>
 <h3 class="doubleHeader">Disagree Productively, Decide, and Commit</h3>
-<p class="body">As a team with strong personalities, we disagreed at the beginning during the ideation phase. We all had different experiences and different thoughts on what would be the best idea to pursue. I soon noticed that while we were challenging each other with valid points, we weren't doing anything. Therefore, I recommend we take action and start interviewing our users. At the end of the hackathon, we all agreed that challenging each other was a main factor to our success. We had to look at our solutions objectively. But more importantly, we took these ideas to our users and tested our assumptions. After we decided on our plan of action, everyone was committed to building the best product possible.</p>
+<p class="body">As a team with strong personalities, we disagreed at the beginning during the ideation phase. We all had different experiences and different thoughts on what would be the best idea to pursue. I soon noticed that while we were challenging each other with valid points, we weren't doing anything. Therefore, I recommend we take action and start interviewing our users. At the end of the hackathon, we all agreed that challenging each other was a significant factor in our success. We had to look at our solutions objectively. But more importantly, we took these ideas to our users and tested our assumptions. After we decided on our plan of action, everyone was committed to building the best product possible.</p>
 
 <img src="/twocities.png">

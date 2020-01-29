@@ -35,7 +35,7 @@ previousPage: /reloc8
 
 
 ###The Solution
-<p class="body">Terrier Card draws influence from mobile banking applications to provide students an efficient, clear, and easy way to manage their finances while at BU. Through interviews, I found that the majority of students purchase their points on their phones (e.g. in line while waiting to pay for their items). Therefore, I focused my efforts on a clean, task-driven mobile UI that was both convenient and secure.</p>
+<p class="body">Terrier Card draws influence from mobile banking applications to provide students an efficient, clear, and easy way to manage their finances while at BU. Through interviews, I found that the majority of students purchase their points on their phones (e.g., in line while waiting to pay for their items). Therefore, I focused my efforts on a clean, task-driven mobile UI that was both convenient and secure.</p>
 
 <img src="./purchase.png">
 
@@ -48,7 +48,7 @@ previousPage: /reloc8
 <img src="./touchid.png">
 
 ###Budgets
-<p class="body">Studies report that only 39 percent of four-year college students use budgets. I wanted users to begin developing responsible financial habits and to have a better relationship with their finances. The budgeting feature lets users set up a monthly spending limit for dining points and convenience points. If they spend under their budget, users may opt to carry over the remaining balance for that month. The data on user's spending is visualized as both bar graphs and as a percentage of the user's monthly budget. Moreover, a second view allows users to see an itemized list of expenses. This allows students to be aware of and accountable for their purchases. While creating a monthly budget is not required to use the application, it is easily accessible from the menu bar in hopes that students will introduce budgeting into their lifestyle.</p>
+<p class="body">Studies report that only 39 percent of four-year college students use budgets. I wanted users to begin developing responsible financial habits and to have a better relationship with their finances. The budgeting feature lets users set up a monthly spending limit for dining points and convenience points. If they spend under their monthly budget, users may opt to carry over the remaining balance for that month. The data on the user's spending is visualized as both bar graphs and as a percentage of the user's monthly budget. Additionally, a second view allows users to see an itemized list of expenses. This allows students to be aware of and accountable for their purchases. While creating a monthly budget is not required to use the application, it is easily accessible from the menu bar in hopes that students will introduce budgeting into their lifestyle.</p>
 
 <img src="./budget.png">
 
@@ -64,7 +64,7 @@ previousPage: /reloc8
 
 <h2 class="afterImg">Lessons Learned</h2>
 <h3 class="doubleHeader">Small Focus yet Big Impact</h3>
-<p class="body">By identifying the most troublesome interactions for my users and focusing only on the payment processes, I challenged myself to take simple interactions and make them even simpler, more effective, and more enjoyable to use. Rather than spending time to redesign the unnecessary parts of BU's existing app, I focused on the features that would provide the most value to my users.</p>
+<p class="body">Instead of redesinging the entire application, I identified the most troublesome interactions for my users and focused only on the payment processes. I challenged myself to take daily interactions and make them even simpler, more effective, and more enjoyable. Rather than spending time to redesign the entirety of BU's existing app, I focused on the features that would provide the most value to my users.</p>
 
 ###Don't Reinvent The Wheel
 <p class="body">Rather than starting from scratch, I looked at banking applications as inspiration. After vetting the design flows and features, I used their foundation and built upon it to personalize the experience for my users.</p>

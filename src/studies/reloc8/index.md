@@ -32,7 +32,7 @@ previousPage: /jpmorgan-chase
 
 ##Define
 <h3 class="doubleHeader">The Problem</h3>
-<p class="body">I competed in the Big Red Hacks hackathon hosted by Cornell University as the only student from Boston University. My team and I decided to focus on the areas of financial literacy and fintech. As a then-senior in college, I reflected on my own experiences: I was about to move to a new city in a new state for my first job. A source of anxiety was the uncertainty of what my cost of living would be like beyond broad comparisons to my current location. I hypothesized that college graduates and young professionals often move to new cities and relocate for work early on in their careers. This is also a time where they cannot be financially flexible. With numerous factors to consider, young professionals struggle to conceptualize the impact that taxes and lifestyle choices have on their financial situations.</p>
+<p class="body">I competed in the Big Red Hacks hackathon hosted by Cornell University as the only student from Boston University. My team and I decided to focus on the areas of financial literacy and fintech. As a then-senior in college, I reflected on my own experiences: I was about to move to a new city in a new state for my first job. A major source of anxiety was the uncertainty of what my cost of living would be, beyond broad comparisons to my current location. I hypothesized that college graduates and young professionals often move to new cities and relocate for work early on in their careers. This is also a time where they cannot be financially flexible. With numerous factors to consider, young professionals struggle to conceptualize the impact that taxes and lifestyle choices have on their financial situations.</p>
 
 <img src="/salary.png">
 
@@ -45,7 +45,7 @@ previousPage: /jpmorgan-chase
 
 
 <h3 class="afterImg">The Solution</h3>
-<p class="body">We iterated on my original concept into a product that factors in your income and select behavior indicators to estimate how much money would be left after essential and lifestyle expenses are paid. We also took into consideration the user's current lifestyle and how much it would cost to sustain it. Factors such as roommates, type of housing, mode of transportation, and the number of meals eaten out personalize the algorithm to calculate a realistic estimation.</p>
+<p class="body">We iterated on my original concept into a product that factors in a user's income and select behavior indicators to estimate how much money would be left after essential and lifestyle expenses are paid. We also took into consideration the user's current lifestyle and how much it would cost to sustain it. Factors such as roommates, type of housing, mode of transportation, and the number of meals eaten out personalize the algorithm to calculate a realistic estimation.</p>
 
 <img src="/lifestyle.png">
 
@@ -63,7 +63,7 @@ previousPage: /jpmorgan-chase
 <img src="/wireframe.png">
 
 <h3 class="afterImg">Front-End</h3>
-<p class="body">Despite my confidence that I could finish the application within 36 hours, I knew compromises had to be made. For example, I focused on developing a desktop version of the product, sacrificing a mobile-first approach and responsiveness. In retrospect, utilizing a preprocessor such as Sass would have increased my productivity with styling. Though, given that I was both the designer and the front-end engineer, I ensured a cohesive look and feel across the product.
+<p class="body">Despite my confidence that I could finish the application within 36 hours, I knew compromises had to be made. For example, I focused on developing a desktop version of the product, sacrificing a mobile-first approach and responsiveness. In retrospect, utilizing a preprocessor such as Sass would have increased my productivity with styling. Though, given that I was both the designer and the front-end engineer, I prioritized a cohesive look and feel across the product.
 </p> 
 <img src="/result.png">
 
@@ -77,7 +77,7 @@ previousPage: /jpmorgan-chase
 <img src="twoshort.png">
 
 <h2 class="afterImg">Lessons Learned</h2>
-<h3 class="doubleHeader">Disagree Productively, Decide, and Commit</h3>
+<h3 class="doubleHeader">Disagree (Productively), Decide, and Commit</h3>
 <p class="body">As a team with strong personalities, we disagreed at the beginning during the ideation phase. We all had different experiences and different thoughts on what would be the best idea to pursue. I soon noticed that while we were challenging each other with valid points, we weren't doing anything. Therefore, I recommend we take action and start interviewing our users. At the end of the hackathon, we all agreed that challenging each other was a significant factor in our success. We had to look at our solutions objectively. But more importantly, we took these ideas to our users and tested our assumptions. After we decided on our plan of action, everyone was committed to building the best product possible.</p>
 
 <img src="/twocities.png">

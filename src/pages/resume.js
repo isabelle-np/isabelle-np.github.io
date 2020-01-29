@@ -87,18 +87,20 @@ function Resume() {
                 <h2 className={styles.heading}>Engineering Skills</h2>
                 <div id="skills" className={styles.section}>
                 <ul className={styles.skills}>
-                    <li>JavaScript</li>
+                    <li>JavaScript ES6+</li>
                     <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>React.js</li>
+                    <li>CSS3</li>
+                    <li>React</li>
+                    <li>Sass</li>
                     <li>GraphQL</li>
                     <li>Responsive Web</li>
                     <li>Java</li>
                     <li>Spring</li>
-                    <li>Python</li>
                     <li>Testing</li>
                     <li>Git</li>
+                    <li>Python</li>
                     <li>SQL</li>
+                    <li>Agile (Scrum &amp; Kanban)</li>
                 </ul>  
                 </div>
                 <h2 className={styles.heading}>Design Skills</h2>

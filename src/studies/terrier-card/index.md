@@ -67,7 +67,7 @@ previousPage: /reloc8
 <p class="body">Instead of redesinging the entire application, I identified the most troublesome interactions for my users and focused only on the payment processes. I challenged myself to take daily interactions and make them even simpler, more effective, and more enjoyable. Rather than spending time to redesign the entirety of BU's existing app, I focused on the features that would provide the most value to my users.</p>
 
 ###Don't Reinvent The Wheel
-<p class="body">Rather than starting from scratch, I looked at banking applications as inspiration. After vetting the design flows and features, I used their foundation and built upon it to personalize the experience for my users.</p>
+<p class="body">Rather than starting from scratch, I looked to banking applications as inspiration. After vetting the design flows and features, I used their foundation and built upon it to personalize the experience for my users.</p>
 
 <img src="./report.png">
 
